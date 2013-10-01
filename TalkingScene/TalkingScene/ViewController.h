@@ -9,17 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<AVAudioRecorderDelegate,AVAudioPlayerDelegate>
 
-@property(nonatomic,retain) IBOutlet UIButton *btnRecordStart;
-@property(nonatomic,retain) IBOutlet UIButton *btnRecordStop;
+@property(nonatomic,retain) IBOutlet UIButton *btnRecord;
 @property(nonatomic,retain) IBOutlet UIButton *btnPlay;
-@property(nonatomic,retain) NSURL *sourcePath;
 @property(nonatomic,retain) AVAudioRecorder *recorder;
 @property(nonatomic,retain) AVAudioPlayer *audioPlayer;
 
--(IBAction)tapBtnStart:(id)sender;
--(IBAction)tapBtnStop:(id)sender;
+-(IBAction)btnRecordStart:(id)sender;
+-(IBAction)btnRecordEnd:(id)sender;
 -(IBAction)tapBtnPlay:(id)sender;
 
 
