@@ -35,13 +35,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    TSLoginViewController *loginViewController = [[TSLoginViewController alloc] init];
+    TSLoginViewController *loginViewController = [[[TSLoginViewController alloc] init]autorelease];
     _loginNav = [[UINavigationController alloc] initWithRootViewController:loginViewController];
     
-    ViewController *homeViewController = [[ViewController alloc] init];
+    ViewController *homeViewController = [[[ViewController alloc] init]autorelease];
     _homeNav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
     
-    TSStorySelectViewController *storyViewController = [[TSStorySelectViewController alloc] init];
+    TSStorySelectViewController *storyViewController = [[[TSStorySelectViewController alloc] init]autorelease];
     _storySelectNav = [[UINavigationController alloc] initWithRootViewController:storyViewController];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];

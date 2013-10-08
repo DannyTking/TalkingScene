@@ -484,6 +484,7 @@
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -495,6 +496,7 @@
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

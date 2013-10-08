@@ -38,7 +38,7 @@
 
 -(IBAction)tapBtn:(id)sender
 {
-    TSSceneSelectViewController *scene = [[TSSceneSelectViewController alloc] init];
+    TSSceneSelectViewController *scene = [[[TSSceneSelectViewController alloc] init]autorelease];
     [self.navigationController pushViewController:scene animated:YES];
 }
 
