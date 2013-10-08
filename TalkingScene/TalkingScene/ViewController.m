@@ -21,6 +21,7 @@
     self.recorder       = nil;
     self.audioPlayer    = nil;
     [super dealloc];
+    
 }
 
 - (void)viewDidLoad
