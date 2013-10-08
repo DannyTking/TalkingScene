@@ -7,24 +7,65 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import "TSLoginViewController.h"
+#import "TSStorySelectViewController.h"
 
 @implementation AppDelegate
+
++ (NSInteger)OSVersion
+{
+    static NSUInteger _deviceSystemMajorVersion = -1;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _deviceSystemMajorVersion = [[[[[UIDevice currentDevice] systemVersion] componentsSeparatedByString:@"."] objectAtIndex:0] intValue];
+    });
+    return _deviceSystemMajorVersion;
+}
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_sideMenu release];
+    [_loginNav release];
+    [_homeNav release];
+    [_storySelectNav release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    TSLoginViewController *loginViewController = [[TSLoginViewController alloc] init];
+    _loginNav = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    
+    ViewController *homeViewController = [[ViewController alloc] init];
+    _homeNav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    
+    TSStorySelectViewController *storyViewController = [[TSStorySelectViewController alloc] init];
+    _storySelectNav = [[UINavigationController alloc] initWithRootViewController:storyViewController];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    
+    RESideMenuItem *loginItem = [[RESideMenuItem alloc] initWithTitle:@"登录" action:^(RESideMenu *menu, RESideMenuItem *item){
+        [menu displayContentController:_loginNav];
+    }];
+    
+    RESideMenuItem *homeItem = [[RESideMenuItem alloc] initWithTitle:@"首页" action:^(RESideMenu *menu, RESideMenuItem *item){
+        [menu displayContentController:_homeNav];
+    }];
+    
+    RESideMenuItem *storyItem = [[RESideMenuItem alloc] initWithTitle:@"选故事" action:^(RESideMenu *menu, RESideMenuItem *item){
+        [menu displayContentController:_storySelectNav];
+    }];
+    
+    _sideMenu = [[RESideMenu alloc] initWithItems:@[loginItem, homeItem, storyItem]];
+    _sideMenu.verticalPortraitOffset = IS_WIDESCREEN ? 110 : 76;
+    _sideMenu.verticalLandscapeOffset = 16;
+    _sideMenu.hideStatusBarArea = [AppDelegate OSVersion] < 7;
+    _sideMenu.openStatusBarStyle = UIStatusBarStyleBlackTranslucent;
+    storyItem.action(_sideMenu, storyItem);
+    
+    self.window.rootViewController = _sideMenu;
     [self.window makeKeyAndVisible];
     return YES;
 }

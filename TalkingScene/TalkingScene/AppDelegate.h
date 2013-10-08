@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class ViewController;
+#import "RESideMenu.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) RESideMenu *sideMenu;
+@property (strong, nonatomic) UINavigationController *loginNav;
+@property (strong, nonatomic) UINavigationController *homeNav;
+@property (strong, nonatomic) UINavigationController *storySelectNav;
 
-@property (strong, nonatomic) ViewController *viewController;
++ (NSInteger)OSVersion;
 
 @end

@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F00A6B818026477003B057C /* AnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A69C18026477003B057C /* AnimationDelegate.m */; };
+		4F00A6B918026477003B057C /* AnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A69E18026477003B057C /* AnimationFrame.m */; };
+		4F00A6BA18026477003B057C /* FlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A018026477003B057C /* FlipView.m */; };
+		4F00A6BB18026477003B057C /* GenericAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A218026477003B057C /* GenericAnimationView.m */; };
+		4F00A6BC18026477003B057C /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A418026477003B057C /* UIView+Image.m */; };
+		4F00A6BD18026477003B057C /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A718026477003B057C /* AccelerationAnimation.m */; };
+		4F00A6BE18026477003B057C /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A918026477003B057C /* Evaluate.m */; };
+		4F00A6BF18026477003B057C /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6AB18026477003B057C /* REBackgroundView.m */; };
+		4F00A6C018026477003B057C /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6AD18026477003B057C /* RESideMenu.m */; };
+		4F00A6C118026477003B057C /* RESideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6AF18026477003B057C /* RESideMenuCell.m */; };
+		4F00A6C218026477003B057C /* RESideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6B118026477003B057C /* RESideMenuItem.m */; };
+		4F00A6C318026477003B057C /* UINavigationController+DelegateFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6B318026477003B057C /* UINavigationController+DelegateFixes.m */; };
+		4F00A6C418026477003B057C /* UIView+ImageSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6B518026477003B057C /* UIView+ImageSnapshot.m */; };
+		4F00A6C518026477003B057C /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6B718026477003B057C /* UIViewController+RESideMenu.m */; };
+		4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F00A6C61802649E003B057C /* QuartzCore.framework */; };
 		4F476EF71D9FE81200610FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F476EF61D9FE81200610FB2 /* UIKit.framework */; };
 		4F476EF91D9FE81200610FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F476EF81D9FE81200610FB2 /* Foundation.framework */; };
 		4F476EFB1D9FE81200610FB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F476EFA1D9FE81200610FB2 /* CoreGraphics.framework */; };
@@ -18,10 +33,49 @@
 		4F476F0D1D9FE81200610FB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F0C1D9FE81200610FB2 /* Default-568h@2x.png */; };
 		4F476F101D9FE81200610FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F476F0F1D9FE81200610FB2 /* ViewController.m */; };
 		4F476F131D9FE81200610FB2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F111D9FE81200610FB2 /* ViewController.xib */; };
+		4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */; };
+		4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */; };
+		4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */; };
+		4F57A68918039CA000A581D8 /* TSStorySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */; };
+		4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67C18039CA000A581D8 /* TSLoginViewController.m */; };
+		4F57A68B18039CA000A581D8 /* TSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67D18039CA000A581D8 /* TSLoginViewController.xib */; };
+		4F57A68C18039CA000A581D8 /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A68018039CA000A581D8 /* TSBaseViewController.m */; };
+		4F57A68D18039CA000A581D8 /* TSBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A68118039CA000A581D8 /* TSBaseViewController.xib */; };
+		4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */; };
+		4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */; };
 		4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BB4E417FB0A070010B422 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F00A69B18026477003B057C /* AnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDelegate.h; sourceTree = "<group>"; };
+		4F00A69C18026477003B057C /* AnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDelegate.m; sourceTree = "<group>"; };
+		4F00A69D18026477003B057C /* AnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFrame.h; sourceTree = "<group>"; };
+		4F00A69E18026477003B057C /* AnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationFrame.m; sourceTree = "<group>"; };
+		4F00A69F18026477003B057C /* FlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipView.h; sourceTree = "<group>"; };
+		4F00A6A018026477003B057C /* FlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipView.m; sourceTree = "<group>"; };
+		4F00A6A118026477003B057C /* GenericAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAnimationView.h; sourceTree = "<group>"; };
+		4F00A6A218026477003B057C /* GenericAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericAnimationView.m; sourceTree = "<group>"; };
+		4F00A6A318026477003B057C /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		4F00A6A418026477003B057C /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		4F00A6A618026477003B057C /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
+		4F00A6A718026477003B057C /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
+		4F00A6A818026477003B057C /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
+		4F00A6A918026477003B057C /* Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluate.m; sourceTree = "<group>"; };
+		4F00A6AA18026477003B057C /* REBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBackgroundView.h; sourceTree = "<group>"; };
+		4F00A6AB18026477003B057C /* REBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBackgroundView.m; sourceTree = "<group>"; };
+		4F00A6AC18026477003B057C /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		4F00A6AD18026477003B057C /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		4F00A6AE18026477003B057C /* RESideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuCell.h; sourceTree = "<group>"; };
+		4F00A6AF18026477003B057C /* RESideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuCell.m; sourceTree = "<group>"; };
+		4F00A6B018026477003B057C /* RESideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuItem.h; sourceTree = "<group>"; };
+		4F00A6B118026477003B057C /* RESideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuItem.m; sourceTree = "<group>"; };
+		4F00A6B218026477003B057C /* UINavigationController+DelegateFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DelegateFixes.h"; sourceTree = "<group>"; };
+		4F00A6B318026477003B057C /* UINavigationController+DelegateFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DelegateFixes.m"; sourceTree = "<group>"; };
+		4F00A6B418026477003B057C /* UIView+ImageSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ImageSnapshot.h"; sourceTree = "<group>"; };
+		4F00A6B518026477003B057C /* UIView+ImageSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageSnapshot.m"; sourceTree = "<group>"; };
+		4F00A6B618026477003B057C /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		4F00A6B718026477003B057C /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		4F00A6C61802649E003B057C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4F476EF31D9FE81200610FB2 /* TalkingScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkingScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F476EF61D9FE81200610FB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4F476EF81D9FE81200610FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +92,22 @@
 		4F476F0E1D9FE81200610FB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4F476F0F1D9FE81200610FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F476F121D9FE81200610FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4F57A67318039CA000A581D8 /* TSSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSceneSelectViewController.h; sourceTree = "<group>"; };
+		4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSceneSelectViewController.m; sourceTree = "<group>"; };
+		4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSceneSelectViewController.xib; sourceTree = "<group>"; };
+		4F57A67718039CA000A581D8 /* TSStorySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorySelectViewController.h; sourceTree = "<group>"; };
+		4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStorySelectViewController.m; sourceTree = "<group>"; };
+		4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSStorySelectViewController.xib; sourceTree = "<group>"; };
+		4F57A67B18039CA000A581D8 /* TSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLoginViewController.h; sourceTree = "<group>"; };
+		4F57A67C18039CA000A581D8 /* TSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLoginViewController.m; sourceTree = "<group>"; };
+		4F57A67D18039CA000A581D8 /* TSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSLoginViewController.xib; sourceTree = "<group>"; };
+		4F57A67F18039CA000A581D8 /* TSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
+		4F57A68018039CA000A581D8 /* TSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBaseViewController.m; sourceTree = "<group>"; };
+		4F57A68118039CA000A581D8 /* TSBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSBaseViewController.xib; sourceTree = "<group>"; };
+		4F57A68318039CA000A581D8 /* TSRoleSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRoleSelectViewController.h; sourceTree = "<group>"; };
+		4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRoleSelectViewController.m; sourceTree = "<group>"; };
+		4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRoleSelectViewController.xib; sourceTree = "<group>"; };
+		4F57A6941803AB3000A581D8 /* TSGlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGlobalMacros.h; sourceTree = "<group>"; };
 		4F5BB4E417FB0A070010B422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -46,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */,
 				4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */,
 				4F476EF71D9FE81200610FB2 /* UIKit.framework in Frameworks */,
 				4F476EF91D9FE81200610FB2 /* Foundation.framework in Frameworks */,
@@ -56,6 +127,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F00A69918026477003B057C /* AssistFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4F00A69A18026477003B057C /* FlipBoard */,
+				4F00A6A518026477003B057C /* RESideMenu */,
+			);
+			path = AssistFramework;
+			sourceTree = "<group>";
+		};
+		4F00A69A18026477003B057C /* FlipBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4F00A69B18026477003B057C /* AnimationDelegate.h */,
+				4F00A69C18026477003B057C /* AnimationDelegate.m */,
+				4F00A69D18026477003B057C /* AnimationFrame.h */,
+				4F00A69E18026477003B057C /* AnimationFrame.m */,
+				4F00A69F18026477003B057C /* FlipView.h */,
+				4F00A6A018026477003B057C /* FlipView.m */,
+				4F00A6A118026477003B057C /* GenericAnimationView.h */,
+				4F00A6A218026477003B057C /* GenericAnimationView.m */,
+				4F00A6A318026477003B057C /* UIView+Image.h */,
+				4F00A6A418026477003B057C /* UIView+Image.m */,
+			);
+			path = FlipBoard;
+			sourceTree = "<group>";
+		};
+		4F00A6A518026477003B057C /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4F00A6A618026477003B057C /* AccelerationAnimation.h */,
+				4F00A6A718026477003B057C /* AccelerationAnimation.m */,
+				4F00A6A818026477003B057C /* Evaluate.h */,
+				4F00A6A918026477003B057C /* Evaluate.m */,
+				4F00A6AA18026477003B057C /* REBackgroundView.h */,
+				4F00A6AB18026477003B057C /* REBackgroundView.m */,
+				4F00A6AC18026477003B057C /* RESideMenu.h */,
+				4F00A6AD18026477003B057C /* RESideMenu.m */,
+				4F00A6AE18026477003B057C /* RESideMenuCell.h */,
+				4F00A6AF18026477003B057C /* RESideMenuCell.m */,
+				4F00A6B018026477003B057C /* RESideMenuItem.h */,
+				4F00A6B118026477003B057C /* RESideMenuItem.m */,
+				4F00A6B218026477003B057C /* UINavigationController+DelegateFixes.h */,
+				4F00A6B318026477003B057C /* UINavigationController+DelegateFixes.m */,
+				4F00A6B418026477003B057C /* UIView+ImageSnapshot.h */,
+				4F00A6B518026477003B057C /* UIView+ImageSnapshot.m */,
+				4F00A6B618026477003B057C /* UIViewController+RESideMenu.h */,
+				4F00A6B718026477003B057C /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +198,7 @@
 		4F476EF51D9FE81200610FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F00A6C61802649E003B057C /* QuartzCore.framework */,
 				4F5BB4E417FB0A070010B422 /* AVFoundation.framework */,
 				4F476EF61D9FE81200610FB2 /* UIKit.framework */,
 				4F476EF81D9FE81200610FB2 /* Foundation.framework */,
@@ -87,6 +210,13 @@
 		4F476EFC1D9FE81200610FB2 /* TalkingScene */ = {
 			isa = PBXGroup;
 			children = (
+				4F57A6931803AB3000A581D8 /* 宏 */,
+				4F57A67A18039CA000A581D8 /* 登录 */,
+				4F57A67618039CA000A581D8 /* 选故事 */,
+				4F57A67218039CA000A581D8 /* 选剧情 */,
+				4F57A68218039CA000A581D8 /* 选角色 */,
+				4F57A67E18039CA000A581D8 /* 基类 */,
+				4F00A69918026477003B057C /* AssistFramework */,
 				4F476F051D9FE81200610FB2 /* AppDelegate.h */,
 				4F476F061D9FE81200610FB2 /* AppDelegate.m */,
 				4F476F0E1D9FE81200610FB2 /* ViewController.h */,
@@ -109,6 +239,70 @@
 				4F476F0C1D9FE81200610FB2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F57A67218039CA000A581D8 /* 选剧情 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A67318039CA000A581D8 /* TSSceneSelectViewController.h */,
+				4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */,
+				4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */,
+			);
+			name = "选剧情";
+			path = SceneSelect;
+			sourceTree = "<group>";
+		};
+		4F57A67618039CA000A581D8 /* 选故事 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A67718039CA000A581D8 /* TSStorySelectViewController.h */,
+				4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */,
+				4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */,
+			);
+			name = "选故事";
+			path = StorySelect;
+			sourceTree = "<group>";
+		};
+		4F57A67A18039CA000A581D8 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A67B18039CA000A581D8 /* TSLoginViewController.h */,
+				4F57A67C18039CA000A581D8 /* TSLoginViewController.m */,
+				4F57A67D18039CA000A581D8 /* TSLoginViewController.xib */,
+			);
+			name = "登录";
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4F57A67E18039CA000A581D8 /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A67F18039CA000A581D8 /* TSBaseViewController.h */,
+				4F57A68018039CA000A581D8 /* TSBaseViewController.m */,
+				4F57A68118039CA000A581D8 /* TSBaseViewController.xib */,
+			);
+			name = "基类";
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		4F57A68218039CA000A581D8 /* 选角色 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A68318039CA000A581D8 /* TSRoleSelectViewController.h */,
+				4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */,
+				4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */,
+			);
+			name = "选角色";
+			path = RoleSelect;
+			sourceTree = "<group>";
+		};
+		4F57A6931803AB3000A581D8 /* 宏 */ = {
+			isa = PBXGroup;
+			children = (
+				4F57A6941803AB3000A581D8 /* TSGlobalMacros.h */,
+			);
+			name = "宏";
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +361,11 @@
 				4F476F0B1D9FE81200610FB2 /* Default@2x.png in Resources */,
 				4F476F0D1D9FE81200610FB2 /* Default-568h@2x.png in Resources */,
 				4F476F131D9FE81200610FB2 /* ViewController.xib in Resources */,
+				4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */,
+				4F57A68918039CA000A581D8 /* TSStorySelectViewController.xib in Resources */,
+				4F57A68B18039CA000A581D8 /* TSLoginViewController.xib in Resources */,
+				4F57A68D18039CA000A581D8 /* TSBaseViewController.xib in Resources */,
+				4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +379,25 @@
 				4F476F031D9FE81200610FB2 /* main.m in Sources */,
 				4F476F071D9FE81200610FB2 /* AppDelegate.m in Sources */,
 				4F476F101D9FE81200610FB2 /* ViewController.m in Sources */,
+				4F00A6B818026477003B057C /* AnimationDelegate.m in Sources */,
+				4F00A6B918026477003B057C /* AnimationFrame.m in Sources */,
+				4F00A6BA18026477003B057C /* FlipView.m in Sources */,
+				4F00A6BB18026477003B057C /* GenericAnimationView.m in Sources */,
+				4F00A6BC18026477003B057C /* UIView+Image.m in Sources */,
+				4F00A6BD18026477003B057C /* AccelerationAnimation.m in Sources */,
+				4F00A6BE18026477003B057C /* Evaluate.m in Sources */,
+				4F00A6BF18026477003B057C /* REBackgroundView.m in Sources */,
+				4F00A6C018026477003B057C /* RESideMenu.m in Sources */,
+				4F00A6C118026477003B057C /* RESideMenuCell.m in Sources */,
+				4F00A6C218026477003B057C /* RESideMenuItem.m in Sources */,
+				4F00A6C318026477003B057C /* UINavigationController+DelegateFixes.m in Sources */,
+				4F00A6C418026477003B057C /* UIView+ImageSnapshot.m in Sources */,
+				4F00A6C518026477003B057C /* UIViewController+RESideMenu.m in Sources */,
+				4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */,
+				4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */,
+				4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */,
+				4F57A68C18039CA000A581D8 /* TSBaseViewController.m in Sources */,
+				4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

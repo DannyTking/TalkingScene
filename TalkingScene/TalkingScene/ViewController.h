@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "TSBaseViewController.h"
 
-@interface ViewController : UIViewController<AVAudioRecorderDelegate,AVAudioPlayerDelegate>
+@interface ViewController : TSBaseViewController<AVAudioRecorderDelegate,AVAudioPlayerDelegate>
 
 @property(nonatomic,retain) IBOutlet UIButton *btnRecord;
 @property(nonatomic,retain) IBOutlet UIButton *btnPlay;
