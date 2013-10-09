@@ -55,7 +55,6 @@
 		EC26B10017E9C83500D2C947 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0FF17E9C83500D2C947 /* Logger.cpp */; };
 		EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */; };
 		EC26B10717E9C8FA00D2C947 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10617E9C8FA00D2C947 /* Property.cpp */; };
-		EC26B10917E9CAF600D2C947 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10817E9CAF600D2C947 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,7 +144,6 @@
 		EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPtr.cpp; sourceTree = "<group>"; };
 		EC26B10517E9C8F500D2C947 /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
 		EC26B10617E9C8FA00D2C947 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
-		EC26B10817E9CAF600D2C947 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,7 +358,6 @@
 				EC26B0FB17E9C75F00D2C947 /* FileHelper.h */,
 				EC26B0FE17E9C82E00D2C947 /* Logger.h */,
 				EC26B10217E9C8C200D2C947 /* SharedPtr.h */,
-				EC26B10817E9CAF600D2C947 /* sqlite3.c */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -465,7 +462,6 @@
 				4F00A6BB18026477003B057C /* GenericAnimationView.m in Sources */,
 				4F00A6BC18026477003B057C /* UIView+Image.m in Sources */,
 				4F00A6BD18026477003B057C /* AccelerationAnimation.m in Sources */,
-				EC26B10917E9CAF600D2C947 /* sqlite3.c in Sources */,
 				EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */,
 				4F00A6BE18026477003B057C /* Evaluate.m in Sources */,
 				EC26B0E717E9C23B00D2C947 /* DatabaseManager.cpp in Sources */,
@@ -573,6 +569,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tangyangming/Desktop/DannyGit/TalkingScene/TalkingScene/sqlite3/libraries/win32,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -585,6 +585,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tangyangming/Desktop/DannyGit/TalkingScene/TalkingScene/sqlite3/libraries/win32,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
