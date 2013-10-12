@@ -158,7 +158,7 @@ namespace Walaber
         float getFloatAtIndex( const int index );
         bool getBoolAtIndex( const int index );
         std::string getStringAtIndex( const int index );
-        Color getColorAtIndex( const int index );
+//        Color getColorAtIndex( const int index );
 		bool isNullAtIndex( const int index );
         
     private:
