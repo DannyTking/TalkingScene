@@ -55,6 +55,7 @@
 		EC26B10017E9C83500D2C947 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0FF17E9C83500D2C947 /* Logger.cpp */; };
 		EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */; };
 		EC26B10717E9C8FA00D2C947 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10617E9C8FA00D2C947 /* Property.cpp */; };
+		EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +145,7 @@
 		EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPtr.cpp; sourceTree = "<group>"; };
 		EC26B10517E9C8F500D2C947 /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
 		EC26B10617E9C8FA00D2C947 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */,
 				4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */,
 				4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */,
 				4F476EF71D9FE81200610FB2 /* UIKit.framework in Frameworks */,
@@ -216,6 +219,7 @@
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
+				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				EC26B0E217E9C1D100D2C947 /* include */,
 				EC26B0E417E9C1E800D2C947 /* src */,
 				4F476EFC1D9FE81200610FB2 /* TalkingScene */,
@@ -569,10 +573,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
-					/Users/tangyangming/Desktop/DannyGit/TalkingScene/TalkingScene/sqlite3/libraries/win32,
+					"\"$(SRSROOT)/Release-iphonesimulator\"",
+					"\"$(SRSROOT)/Release-iphones\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -585,10 +592,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
-					/Users/tangyangming/Desktop/DannyGit/TalkingScene/TalkingScene/sqlite3/libraries/win32,
+					"\"$(SRSROOT)/Release-iphonesimulator\"",
+					"\"$(SRSROOT)/Release-iphones\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
