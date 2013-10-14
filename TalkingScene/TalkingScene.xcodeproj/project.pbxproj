@@ -31,7 +31,7 @@
 		4F476F091D9FE81200610FB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F081D9FE81200610FB2 /* Default.png */; };
 		4F476F0B1D9FE81200610FB2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F0A1D9FE81200610FB2 /* Default@2x.png */; };
 		4F476F0D1D9FE81200610FB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F0C1D9FE81200610FB2 /* Default-568h@2x.png */; };
-		4F476F101D9FE81200610FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F476F0F1D9FE81200610FB2 /* ViewController.m */; };
+		4F476F101D9FE81200610FB2 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F476F0F1D9FE81200610FB2 /* ViewController.mm */; };
 		4F476F131D9FE81200610FB2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F111D9FE81200610FB2 /* ViewController.xib */; };
 		4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */; };
 		4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */; };
@@ -44,6 +44,18 @@
 		4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */; };
 		4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */; };
 		4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BB4E417FB0A070010B422 /* AVFoundation.framework */; };
+		EC26B0E717E9C23B00D2C947 /* DatabaseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0E617E9C23B00D2C947 /* DatabaseManager.cpp */; };
+		EC26B0EC17E9C62300D2C947 /* Callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0EA17E9C62300D2C947 /* Callback.cpp */; };
+		EC26B0ED17E9C62300D2C947 /* MemberCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0EB17E9C62300D2C947 /* MemberCallback.cpp */; };
+		EC26B0F017E9C66400D2C947 /* FileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0EF17E9C66400D2C947 /* FileManager.cpp */; };
+		EC26B0F317E9C68300D2C947 /* PropertyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0F217E9C68300D2C947 /* PropertyList.cpp */; };
+		EC26B0F717E9C70F00D2C947 /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0F617E9C70F00D2C947 /* PlatformManager.cpp */; };
+		EC26B0FA17E9C74200D2C947 /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0F917E9C74200D2C947 /* StringHelper.cpp */; };
+		EC26B0FD17E9C76B00D2C947 /* FileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0FC17E9C76B00D2C947 /* FileHelper.cpp */; };
+		EC26B10017E9C83500D2C947 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0FF17E9C83500D2C947 /* Logger.cpp */; };
+		EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */; };
+		EC26B10717E9C8FA00D2C947 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10617E9C8FA00D2C947 /* Property.cpp */; };
+		EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +102,7 @@
 		4F476F0A1D9FE81200610FB2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4F476F0C1D9FE81200610FB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4F476F0E1D9FE81200610FB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F476F0F1D9FE81200610FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F476F0F1D9FE81200610FB2 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		4F476F121D9FE81200610FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		4F57A67318039CA000A581D8 /* TSSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSceneSelectViewController.h; sourceTree = "<group>"; };
 		4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSceneSelectViewController.m; sourceTree = "<group>"; };
@@ -109,6 +121,31 @@
 		4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRoleSelectViewController.xib; sourceTree = "<group>"; };
 		4F57A6941803AB3000A581D8 /* TSGlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGlobalMacros.h; sourceTree = "<group>"; };
 		4F5BB4E417FB0A070010B422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC26B0E517E9C21D00D2C947 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		EC26B0E617E9C23B00D2C947 /* DatabaseManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatabaseManager.cpp; sourceTree = "<group>"; };
+		EC26B0E817E9C61900D2C947 /* Callback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
+		EC26B0E917E9C61900D2C947 /* MemberCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemberCallback.h; sourceTree = "<group>"; };
+		EC26B0EA17E9C62300D2C947 /* Callback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Callback.cpp; sourceTree = "<group>"; };
+		EC26B0EB17E9C62300D2C947 /* MemberCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemberCallback.cpp; sourceTree = "<group>"; };
+		EC26B0EE17E9C65D00D2C947 /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		EC26B0EF17E9C66400D2C947 /* FileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileManager.cpp; sourceTree = "<group>"; };
+		EC26B0F117E9C67600D2C947 /* PropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyList.h; sourceTree = "<group>"; };
+		EC26B0F217E9C68300D2C947 /* PropertyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropertyList.cpp; sourceTree = "<group>"; };
+		EC26B0F417E9C6EC00D2C947 /* ResultCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultCodes.h; sourceTree = "<group>"; };
+		EC26B0F517E9C70200D2C947 /* PlatformManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformManager.h; sourceTree = "<group>"; };
+		EC26B0F617E9C70F00D2C947 /* PlatformManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformManager.cpp; sourceTree = "<group>"; };
+		EC26B0F817E9C73B00D2C947 /* StringHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		EC26B0F917E9C74200D2C947 /* StringHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringHelper.cpp; sourceTree = "<group>"; };
+		EC26B0FB17E9C75F00D2C947 /* FileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		EC26B0FC17E9C76B00D2C947 /* FileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileHelper.cpp; sourceTree = "<group>"; };
+		EC26B0FE17E9C82E00D2C947 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		EC26B0FF17E9C83500D2C947 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		EC26B10117E9C89E00D2C947 /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		EC26B10217E9C8C200D2C947 /* SharedPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedPtr.h; sourceTree = "<group>"; };
+		EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPtr.cpp; sourceTree = "<group>"; };
+		EC26B10517E9C8F500D2C947 /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		EC26B10617E9C8FA00D2C947 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */,
 				4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */,
 				4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */,
 				4F476EF71D9FE81200610FB2 /* UIKit.framework in Frameworks */,
@@ -181,6 +219,9 @@
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
+				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
+				EC26B0E217E9C1D100D2C947 /* include */,
+				EC26B0E417E9C1E800D2C947 /* src */,
 				4F476EFC1D9FE81200610FB2 /* TalkingScene */,
 				4F476EF51D9FE81200610FB2 /* Frameworks */,
 				4F476EF41D9FE81200610FB2 /* Products */,
@@ -220,7 +261,7 @@
 				4F476F051D9FE81200610FB2 /* AppDelegate.h */,
 				4F476F061D9FE81200610FB2 /* AppDelegate.m */,
 				4F476F0E1D9FE81200610FB2 /* ViewController.h */,
-				4F476F0F1D9FE81200610FB2 /* ViewController.m */,
+				4F476F0F1D9FE81200610FB2 /* ViewController.mm */,
 				4F476F111D9FE81200610FB2 /* ViewController.xib */,
 				4F476EFD1D9FE81200610FB2 /* Supporting Files */,
 			);
@@ -305,6 +346,44 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		EC26B0E217E9C1D100D2C947 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EC26B10117E9C89E00D2C947 /* macros.h */,
+				EC26B0F417E9C6EC00D2C947 /* ResultCodes.h */,
+				EC26B0F517E9C70200D2C947 /* PlatformManager.h */,
+				EC26B0E517E9C21D00D2C947 /* DatabaseManager.h */,
+				EC26B0E817E9C61900D2C947 /* Callback.h */,
+				EC26B0E917E9C61900D2C947 /* MemberCallback.h */,
+				EC26B0EE17E9C65D00D2C947 /* FileManager.h */,
+				EC26B10517E9C8F500D2C947 /* Property.h */,
+				EC26B0F117E9C67600D2C947 /* PropertyList.h */,
+				EC26B0F817E9C73B00D2C947 /* StringHelper.h */,
+				EC26B0FB17E9C75F00D2C947 /* FileHelper.h */,
+				EC26B0FE17E9C82E00D2C947 /* Logger.h */,
+				EC26B10217E9C8C200D2C947 /* SharedPtr.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		EC26B0E417E9C1E800D2C947 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EC26B0E617E9C23B00D2C947 /* DatabaseManager.cpp */,
+				EC26B0EA17E9C62300D2C947 /* Callback.cpp */,
+				EC26B0EB17E9C62300D2C947 /* MemberCallback.cpp */,
+				EC26B0EF17E9C66400D2C947 /* FileManager.cpp */,
+				EC26B10617E9C8FA00D2C947 /* Property.cpp */,
+				EC26B0F217E9C68300D2C947 /* PropertyList.cpp */,
+				EC26B0F617E9C70F00D2C947 /* PlatformManager.cpp */,
+				EC26B0F917E9C74200D2C947 /* StringHelper.cpp */,
+				EC26B0FC17E9C76B00D2C947 /* FileHelper.cpp */,
+				EC26B0FF17E9C83500D2C947 /* Logger.cpp */,
+				EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,14 +457,21 @@
 			files = (
 				4F476F031D9FE81200610FB2 /* main.m in Sources */,
 				4F476F071D9FE81200610FB2 /* AppDelegate.m in Sources */,
-				4F476F101D9FE81200610FB2 /* ViewController.m in Sources */,
+				EC26B0EC17E9C62300D2C947 /* Callback.cpp in Sources */,
+				4F476F101D9FE81200610FB2 /* ViewController.mm in Sources */,
+				EC26B0FA17E9C74200D2C947 /* StringHelper.cpp in Sources */,
 				4F00A6B818026477003B057C /* AnimationDelegate.m in Sources */,
 				4F00A6B918026477003B057C /* AnimationFrame.m in Sources */,
 				4F00A6BA18026477003B057C /* FlipView.m in Sources */,
 				4F00A6BB18026477003B057C /* GenericAnimationView.m in Sources */,
 				4F00A6BC18026477003B057C /* UIView+Image.m in Sources */,
 				4F00A6BD18026477003B057C /* AccelerationAnimation.m in Sources */,
+				EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */,
 				4F00A6BE18026477003B057C /* Evaluate.m in Sources */,
+				EC26B0E717E9C23B00D2C947 /* DatabaseManager.cpp in Sources */,
+				EC26B10717E9C8FA00D2C947 /* Property.cpp in Sources */,
+				EC26B0F717E9C70F00D2C947 /* PlatformManager.cpp in Sources */,
+				EC26B0F317E9C68300D2C947 /* PropertyList.cpp in Sources */,
 				4F00A6BF18026477003B057C /* REBackgroundView.m in Sources */,
 				4F00A6C018026477003B057C /* RESideMenu.m in Sources */,
 				4F00A6C118026477003B057C /* RESideMenuCell.m in Sources */,
@@ -394,6 +480,10 @@
 				4F00A6C418026477003B057C /* UIView+ImageSnapshot.m in Sources */,
 				4F00A6C518026477003B057C /* UIViewController+RESideMenu.m in Sources */,
 				4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */,
+				EC26B0ED17E9C62300D2C947 /* MemberCallback.cpp in Sources */,
+				EC26B0F017E9C66400D2C947 /* FileManager.cpp in Sources */,
+				EC26B0FD17E9C76B00D2C947 /* FileHelper.cpp in Sources */,
+				EC26B10017E9C83500D2C947 /* Logger.cpp in Sources */,
 				4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */,
 				4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */,
 				4F57A68C18039CA000A581D8 /* TSBaseViewController.m in Sources */,
@@ -483,6 +573,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRSROOT)/Release-iphonesimulator\"",
+					"\"$(SRSROOT)/Release-iphones\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -495,6 +592,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRSROOT)/Release-iphonesimulator\"",
+					"\"$(SRSROOT)/Release-iphones\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
