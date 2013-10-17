@@ -36,13 +36,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     TSLoginViewController *loginViewController = [[[TSLoginViewController alloc] init]autorelease];
-    _loginNav = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    _loginNav = [[FlipBoardNavigationController alloc] initWithRootViewController:loginViewController];
     
     ViewController *homeViewController = [[[ViewController alloc] init]autorelease];
-    _homeNav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    _homeNav = [[FlipBoardNavigationController alloc] initWithRootViewController:homeViewController];
     
     TSStorySelectViewController *storyViewController = [[[TSStorySelectViewController alloc] init]autorelease];
-    _storySelectNav = [[UINavigationController alloc] initWithRootViewController:storyViewController];
+    _storySelectNav = [[FlipBoardNavigationController alloc] initWithRootViewController:storyViewController];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
@@ -59,7 +59,7 @@
     }];
     
     _sideMenu = [[RESideMenu alloc] initWithItems:@[loginItem, homeItem, storyItem]];
-    _sideMenu.verticalPortraitOffset = IS_WIDESCREEN ? 110 : 76;
+    _sideMenu.verticalPortraitOffset = IS_IPHONE5 ? 110 : 76;
     _sideMenu.verticalLandscapeOffset = 16;
     _sideMenu.hideStatusBarArea = [AppDelegate OSVersion] < 7;
     _sideMenu.openStatusBarStyle = UIStatusBarStyleBlackTranslucent;

@@ -44,6 +44,15 @@
 		4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */; };
 		4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */; };
 		4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BB4E417FB0A070010B422 /* AVFoundation.framework */; };
+		4F86449A180F8ED50003D008 /* FlipBoardNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F864499180F8ED50003D008 /* FlipBoardNavigationController.m */; };
+		4F8644A3180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F86449D180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png */; };
+		4F8644A4180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F86449E180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png */; };
+		4F8644A6180FB3F70003D008 /* TS_Com_NavBar_BKG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8644A0180FB3F70003D008 /* TS_Com_NavBar_BKG.png */; };
+		4F8644A8180FB3F70003D008 /* TS_Com_NavBar_BKG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8644A2180FB3F70003D008 /* TS_Com_NavBar_BKG@2x.png */; };
+		4F8644AB180FB5E40003D008 /* ImageNameRule.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4F8644AA180FB5E40003D008 /* ImageNameRule.rtf */; };
+		4F8644AE180FB9DC0003D008 /* TS_Com_Back_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8644AC180FB9DC0003D008 /* TS_Com_Back_Icon.png */; };
+		4F8644AF180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8644AD180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png */; };
+		4F8644B2180FBAB20003D008 /* TSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8644B1180FBAB20003D008 /* TSNavigationBar.m */; };
 		EC26B0E717E9C23B00D2C947 /* DatabaseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0E617E9C23B00D2C947 /* DatabaseManager.cpp */; };
 		EC26B0EC17E9C62300D2C947 /* Callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0EA17E9C62300D2C947 /* Callback.cpp */; };
 		EC26B0ED17E9C62300D2C947 /* MemberCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B0EB17E9C62300D2C947 /* MemberCallback.cpp */; };
@@ -121,6 +130,17 @@
 		4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRoleSelectViewController.xib; sourceTree = "<group>"; };
 		4F57A6941803AB3000A581D8 /* TSGlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGlobalMacros.h; sourceTree = "<group>"; };
 		4F5BB4E417FB0A070010B422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F864498180F8ED50003D008 /* FlipBoardNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipBoardNavigationController.h; sourceTree = "<group>"; };
+		4F864499180F8ED50003D008 /* FlipBoardNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipBoardNavigationController.m; sourceTree = "<group>"; };
+		4F86449D180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TS_Com_NavBarItem_BKG.png; sourceTree = "<group>"; };
+		4F86449E180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TS_Com_NavBarItem_BKG@2x.png"; sourceTree = "<group>"; };
+		4F8644A0180FB3F70003D008 /* TS_Com_NavBar_BKG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TS_Com_NavBar_BKG.png; sourceTree = "<group>"; };
+		4F8644A2180FB3F70003D008 /* TS_Com_NavBar_BKG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TS_Com_NavBar_BKG@2x.png"; sourceTree = "<group>"; };
+		4F8644AA180FB5E40003D008 /* ImageNameRule.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ImageNameRule.rtf; sourceTree = "<group>"; };
+		4F8644AC180FB9DC0003D008 /* TS_Com_Back_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TS_Com_Back_Icon.png; sourceTree = "<group>"; };
+		4F8644AD180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TS_Com_Back_Icon@2x.png"; sourceTree = "<group>"; };
+		4F8644B0180FBAB20003D008 /* TSNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationBar.h; sourceTree = "<group>"; };
+		4F8644B1180FBAB20003D008 /* TSNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationBar.m; sourceTree = "<group>"; };
 		EC26B0E517E9C21D00D2C947 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
 		EC26B0E617E9C23B00D2C947 /* DatabaseManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatabaseManager.cpp; sourceTree = "<group>"; };
 		EC26B0E817E9C61900D2C947 /* Callback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
@@ -168,6 +188,7 @@
 		4F00A69918026477003B057C /* AssistFramework */ = {
 			isa = PBXGroup;
 			children = (
+				4F864497180F8ED50003D008 /* FlipBoardNavigationController */,
 				4F00A69A18026477003B057C /* FlipBoard */,
 				4F00A6A518026477003B057C /* RESideMenu */,
 			);
@@ -219,6 +240,7 @@
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
+				4F86449B180FB2730003D008 /* 图片资源 */,
 				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				EC26B0E217E9C1D100D2C947 /* include */,
 				EC26B0E417E9C1E800D2C947 /* src */,
@@ -251,6 +273,7 @@
 		4F476EFC1D9FE81200610FB2 /* TalkingScene */ = {
 			isa = PBXGroup;
 			children = (
+				4F8644A9180FB5230003D008 /* 自定义控件 */,
 				4F57A6931803AB3000A581D8 /* 宏 */,
 				4F57A67A18039CA000A581D8 /* 登录 */,
 				4F57A67618039CA000A581D8 /* 选故事 */,
@@ -344,6 +367,49 @@
 			);
 			name = "宏";
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		4F864497180F8ED50003D008 /* FlipBoardNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				4F864498180F8ED50003D008 /* FlipBoardNavigationController.h */,
+				4F864499180F8ED50003D008 /* FlipBoardNavigationController.m */,
+			);
+			path = FlipBoardNavigationController;
+			sourceTree = "<group>";
+		};
+		4F86449B180FB2730003D008 /* 图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				4F8644AA180FB5E40003D008 /* ImageNameRule.rtf */,
+				4F86449C180FB2B70003D008 /* 公共模块 */,
+			);
+			name = "图片资源";
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		4F86449C180FB2B70003D008 /* 公共模块 */ = {
+			isa = PBXGroup;
+			children = (
+				4F86449D180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png */,
+				4F86449E180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png */,
+				4F8644A0180FB3F70003D008 /* TS_Com_NavBar_BKG.png */,
+				4F8644A2180FB3F70003D008 /* TS_Com_NavBar_BKG@2x.png */,
+				4F8644AC180FB9DC0003D008 /* TS_Com_Back_Icon.png */,
+				4F8644AD180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png */,
+			);
+			name = "公共模块";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4F8644A9180FB5230003D008 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				4F8644B0180FBAB20003D008 /* TSNavigationBar.h */,
+				4F8644B1180FBAB20003D008 /* TSNavigationBar.m */,
+			);
+			name = "自定义控件";
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		EC26B0E217E9C1D100D2C947 /* include */ = {
@@ -445,6 +511,13 @@
 				4F57A68B18039CA000A581D8 /* TSLoginViewController.xib in Resources */,
 				4F57A68D18039CA000A581D8 /* TSBaseViewController.xib in Resources */,
 				4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */,
+				4F8644A3180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png in Resources */,
+				4F8644A4180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png in Resources */,
+				4F8644A6180FB3F70003D008 /* TS_Com_NavBar_BKG.png in Resources */,
+				4F8644A8180FB3F70003D008 /* TS_Com_NavBar_BKG@2x.png in Resources */,
+				4F8644AB180FB5E40003D008 /* ImageNameRule.rtf in Resources */,
+				4F8644AE180FB9DC0003D008 /* TS_Com_Back_Icon.png in Resources */,
+				4F8644AF180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +561,8 @@
 				4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */,
 				4F57A68C18039CA000A581D8 /* TSBaseViewController.m in Sources */,
 				4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */,
+				4F86449A180F8ED50003D008 /* FlipBoardNavigationController.m in Sources */,
+				4F8644B2180FBAB20003D008 /* TSNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

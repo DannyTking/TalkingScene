@@ -12,6 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import "TSGlobalMacros.h"
+    #import "FlipBoardNavigationController.h"
 #endif
 
 
