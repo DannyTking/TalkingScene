@@ -1,22 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
-CREATE TABLE "ContentTable" ("Points" INTEGER NOT NULL , "ID" TEXT PRIMARY KEY  NOT NULL  UNIQUE , "Hidden" INTEGER NOT NULL  DEFAULT 0, "PreEarnedDescription" TEXT NOT NULL , "EarnedDescription" TEXT NOT NULL , "Image" TEXT NOT NULL , "PercentComplete" FLOAT NOT NULL  DEFAULT 0, "SortingGroup" INTEGER NOT NULL  DEFAULT 0, 'FacebookDescription' TEXT NOT NULL DEFAULT '', "LevelFile" TEXT NOT NULL  DEFAULT '', "HasViewed" BOOL NOT NULL  DEFAULT 0);
-INSERT INTO "ContentTable" VALUES(10,'ACH_LP_ONE_CHINA',0,'ACH_LP_ONE_HOWTO','ACH_LP_ONE_DESC','ACH_01.png',0.0,0,'ACH_LP_ONE_FB','',0);
-INSERT INTO "ContentTable" VALUES(25,'ACH_TRIGNOME_LP_ONE_CHINA',0,'ACH_TRIGNOME_LP_ONE_HOWTO','ACH_TRIGNOME_LP_ONE_DESC','ACH_02.png',0.0,0,'ACH_TRIGNOME_LP_ONE_FB','',0);
-INSERT INTO "ContentTable" VALUES(10,'ACH_LP_TWO_CHINA',0,'ACH_LP_TWO_HOWTO','ACH_LP_TWO_DESC','ACH_03.png',0.0,0,'ACH_LP_TWO_FB','',0);
+CREATE TABLE "ContentTable" ("ContentID" INTEGER NOT NULL , "SequenceID" INTEGER NOT NULL , "HeroID" INTEGER NOT NULL , "ContentText" TEXT NOT NULL , "ContentVoice" TEXT NOT NULL , "IsOrigin" BOOL NOT NULL  DEFAULT 0);
+INSERT INTO "ContentTable" VALUES(1001,1,2001,'WORD_1Achievements','WORD_1.mp3',0);
+INSERT INTO "ContentTable" VALUES(1001,2,2002,'WORD_2','WORD_2.mp3',0);
+INSERT INTO "ContentTable" VALUES(1001,3,2001,'WORD_3','WORD_3.mp3',0);
 
 CREATE TABLE "PlayerData" ("ID" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "EventName" TEXT NOT NULL , "EventValue" INTEGER NOT NULL , 'EventStringValue' TEXT);
 INSERT INTO "PlayerData" VALUES(17,'TimesFailed',0,'');
 INSERT INTO "PlayerData" VALUES(18,'FirstInstallTime',-1,'');
 INSERT INTO "PlayerData" VALUES(19,'TotalPlayTimeInLevel',0,'');
 
-CREATE TABLE "HeroTable" ("ID" INTEGER PRIMARY KEY  NOT NULL ,"Storyline" INTEGER NOT NULL  DEFAULT (-1) ,"PackName" TEXT NOT NULL  DEFAULT ('') ,"Hidden" BOOL NOT NULL  DEFAULT (0) ,"IAP_item_id" TEXT NOT NULL  DEFAULT ('') ,"Bought" BOOL NOT NULL  DEFAULT (1) ,"Unlocked" BOOL NOT NULL  DEFAULT (1) ,"StarsRequired" INTEGER NOT NULL  DEFAULT (-1) ,"TitleText" TEXT NOT NULL  DEFAULT ('') ,"SubtitleText" TEXT NOT NULL  DEFAULT ('') ,"MainTexture" TEXT NOT NULL  DEFAULT ('') ,"FrameTexture" TEXT NOT NULL  DEFAULT ('') , "LockedTexture" TEXT NOT NULL  DEFAULT '', "IsLevelPack" BOOL NOT NULL  DEFAULT 1, "LockedText" TEXT NOT NULL  DEFAULT '', FB_AlbumName text, LS_Unlocked integer default(0), "SimulateUnlock" BOOL NOT NULL  DEFAULT 0, 'IAP_Text' TEXT NOT NULL DEFAULT '','BGTexture' TEXT NOT NULL DEFAULT '','MainSkeleton' TEXT NOT NULL DEFAULT '');
-INSERT INTO "HeroTable" VALUES(10,1000,'LP_ONE',0,'',1,1,-1,'LP_ONE_TITLE','LP_ONE_SUBTITLE','2x2.webp','2x2.webp','',1,'','Mission 1 - An Agent I Can Trust',0,0,'','materials_rock_backdrop_p01.webp','back1');
-INSERT INTO "HeroTable" VALUES(11,1000,'LP_TWO',0,'',1,0,35,'LP_TWO_TITLE','LP_TWO_SUBTITLE','2x2.webp','2x2.webp','2x2.webp',1,'LOCKED','Mission 2 - A Thousand Times Over',0,0,'','materials_rock_backdrop_p01.webp','back2');
-INSERT INTO "HeroTable" VALUES(12,1000,'LP_THREE',0,'',1,0,85,'LP_THREE_TITLE','LP_THREE_SUBTITLE','2x2.webp','2x2.webp','2x2.webp',1,'LOCKED','Mission 3 - A Thousand Times Over',0,0,'','materials_rock_backdrop_p01.webp','back3');
-INSERT INTO "HeroTable" VALUES(13,1000,'LP_FOUR',0,'',1,0,150,'LP_FOUR_TITLE','LP_FOUR_SUBTITLE','2x2.webp','2x2.webp','2x2.webp',1,'LOCKED','Mission 4 - A Thousand Times Over',0,0,'','materials_rock_backdrop_p01.webp','back4');
-INSERT INTO "HeroTable" VALUES(30,1000,'MORE_COMING_SOON',0,'',1,1,-1,'','MORE_LEVELS','2x2.webp','2x2.webp','',0,'','',0,0,'','materials_rock_backdrop_p01.webp','back5');
-INSERT INTO "HeroTable" VALUES(-1,-1,'LP_LOW',0,'',1,0,85,'LP_LOW_TITLE','LP_LOW_SUBTITLE','LP_LOW_weslie.webp','','',1,'LOCKED','',0,0,'','materials_rock_backdrop_p01.webp','');
+CREATE TABLE "HeroTable" ("HeroID" INTEGER PRIMARY KEY  NOT NULL ,"HeroName" TEXT NOT NULL  DEFAULT ('') ,"HeroIcon" TEXT NOT NULL  DEFAULT ('') ,"HeroBrief" TEXT NOT NULL  DEFAULT ('') ,'HeroStars' INTEGER NOT NULL DEFAULT 0);
+INSERT INTO "HeroTable" VALUES(2001,'HN_SHU_WU_KONG','HN_SHU_WU_KONG.png','HN_GUAN_SHI_YIN_BRF',1);
+INSERT INTO "HeroTable" VALUES(2002,'HN_LIU_ER_MI_HOU','HN_LIU_ER_MI_HOU.png','HN_LIU_ER_MI_HOU_BRF',1);
+INSERT INTO "HeroTable" VALUES(2003,'HN_GUAN_SHI_YIN','HN_GUAN_SHI_YIN.png','HN_GUAN_SHI_YIN_BRF',1);
 
 CREATE TABLE "Settings" ("ID" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , "Name" TEXT NOT NULL , "Value" INTEGER NOT NULL  DEFAULT 0);
 INSERT INTO "Settings" VALUES(0,'DatabaseVersion',1);
