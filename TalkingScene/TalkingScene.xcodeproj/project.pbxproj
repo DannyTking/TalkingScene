@@ -241,7 +241,6 @@
 			isa = PBXGroup;
 			children = (
 				4F86449B180FB2730003D008 /* 图片资源 */,
-				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				EC26B0E217E9C1D100D2C947 /* include */,
 				EC26B0E417E9C1E800D2C947 /* src */,
 				4F476EFC1D9FE81200610FB2 /* TalkingScene */,
@@ -261,6 +260,7 @@
 		4F476EF51D9FE81200610FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				4F00A6C61802649E003B057C /* QuartzCore.framework */,
 				4F5BB4E417FB0A070010B422 /* AVFoundation.framework */,
 				4F476EF61D9FE81200610FB2 /* UIKit.framework */,
@@ -460,6 +460,8 @@
 				4F476EEF1D9FE81200610FB2 /* Sources */,
 				4F476EF01D9FE81200610FB2 /* Frameworks */,
 				4F476EF11D9FE81200610FB2 /* Resources */,
+				EC3C641418113C9600E32256 /* Run Script-SQL Files */,
+				EC3C641518113F0E00E32256 /* Run Script-turn database SQL files into binary DBFiles */,
 			);
 			buildRules = (
 			);
@@ -522,6 +524,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC3C641418113C9600E32256 /* Run Script-SQL Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script-SQL Files";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $CONFIGURATION_BUILD_DIR\necho \"Configuration Build Dir:\" $CONFIGURATION_BUILD_DIR\ncd $EXECUTABLE_FOLDER_PATH\necho \"Executable Folder Path:\" $EXECUTABLE_FOLDER_PATH\necho \"RUNNING SQL SCRIPT FOR THIS CONFIGURATION ($TARGETNAME-$CONFIGURATION)...\"\nSQL_FILE=$PROJECT_DIR/Scripts/SQLFiles/$TARGETNAME-$CONFIGURATION\nDB_FILE=Content/Data/talkingScene.db\n\nif [ ! -f $DB_FILE ]; then\nDB_FILE=Content/Data/talkingScene-lite.db\nfi\n\necho \"SQL File\" $SQL_FILE\n\necho \"DB File\" $DB_FILE\n\nif [ -f $SQL_FILE ]; then\nsqlite3 $DB_FILE < $SQL_FILE\nelse\necho \"SQL Script not found:\" $SQL_FILE\nfi";
+		};
+		EC3C641518113F0E00E32256 /* Run Script-turn database SQL files into binary DBFiles */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script-turn database SQL files into binary DBFiles";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"turning SQL files into binary .DB files...\"\n\n. \"$PROJECT_DIR\"/../ContentRaw/Data/build_db_from_sql.sh \"$PROJECT_DIR\"/../ContentRaw/Data \"$PROJECT_DIR\"/../Content/Data\n\n#update the content,for xcode 5 doesn't update auto\ntouch \"$PROJECT_DIR\"/../Content";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F476EEF1D9FE81200610FB2 /* Sources */ = {
