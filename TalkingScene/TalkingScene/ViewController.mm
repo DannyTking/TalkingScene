@@ -59,24 +59,24 @@ using namespace Walaber;
         printf("[WaterConceptViewController] Attempting to run lotw update script: %s\n", updateFile.c_str());
         
         // Callbacks
-        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseCompletedCallback));
-        CallbackPtr completeCallback = static_pointer_cast<Callback>(memcallback);
-        
-        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback2(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseErrorCallback));
-        CallbackPtr errorCallback = static_pointer_cast<Callback>(memcallback2);
-        
-        // GO GO GO!!
-        DatabaseManager::runSQL(  PC::DI_Default, updateFile, completeCallback, errorCallback );
-        
-        // Send notification to GameSettings to hook up this level for play
-        Message m(MC_System, PC::MID_NotifyLevelOfWeekAMPSDownloadSuccess);
-        m.Properties.setValueForKey("AssetStoryLine", Property ( (int)assetStoryLine ));
-        Walaber::BroadcastManager::getInstancePtr()->messageTx(m);
+//        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseCompletedCallback));
+//        CallbackPtr completeCallback = static_pointer_cast<Callback>(memcallback);
+//        
+//        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback2(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseErrorCallback));
+//        CallbackPtr errorCallback = static_pointer_cast<Callback>(memcallback2);
+//        
+//        // GO GO GO!!
+//        DatabaseManager::runSQL(  PC::DI_Default, updateFile, completeCallback, errorCallback );
+//        
+//        // Send notification to GameSettings to hook up this level for play
+//        Message m(MC_System, PC::MID_NotifyLevelOfWeekAMPSDownloadSuccess);
+//        m.Properties.setValueForKey("AssetStoryLine", Property ( (int)assetStoryLine ));
+//        Walaber::BroadcastManager::getInstancePtr()->messageTx(m);
         
     }
     else
     {
-        NSLog(@"[WaterConceptViewController] Error: Update File not found");
+        DELog(@"[WaterConceptViewController] Error: Update File not found");
     }
 
     
@@ -89,7 +89,7 @@ using namespace Walaber;
 
 -(IBAction)btnRecordStart:(id)sender
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
     [_btnPlay setEnabled:NO];
     
     AVAudioSession * audioSession = [AVAudioSession sharedInstance];
@@ -101,7 +101,7 @@ using namespace Walaber;
 
 -(IBAction)btnRecordEnd:(id)sender
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
     
     [self performSelector:@selector(stopRecordMy) withObject:nil afterDelay:0.5];
 }
@@ -117,11 +117,11 @@ using namespace Walaber;
 
 -(IBAction)tapBtnPlay:(id)sender
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
     [_btnRecord setEnabled:NO];
     
-    NSLog(@"%@",[NSTemporaryDirectory() stringByAppendingPathComponent:[NSString stringWithFormat: @"%@.%@",@"test",@"caf"]]);
-                 NSLog(@"%@",_audioPlayer.url.absoluteString);
+    DELog(@"%@",[NSTemporaryDirectory() stringByAppendingPathComponent:[NSString stringWithFormat: @"%@.%@",@"test",@"caf"]]);
+                 DELog(@"%@",_audioPlayer.url.absoluteString);
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if([fileManager fileExistsAtPath:[NSTemporaryDirectory() stringByAppendingPathComponent:[NSString stringWithFormat: @"%@.%@",@"test",@"caf"]]])
@@ -141,12 +141,12 @@ using namespace Walaber;
 
 - (void)audioRecorderDidFinishRecording:(AVAudioRecorder *)recorder successfully:(BOOL)flag
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
 }
 
 - (void)audioRecorderEncodeErrorDidOccur:(AVAudioRecorder *)recorder error:(NSError *)error
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
 }
 
 #pragma mark - AVAudioPlayerDelegate
@@ -154,13 +154,13 @@ using namespace Walaber;
 //#############################################################################
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
     [_btnRecord setEnabled:YES];
 }
 
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withOptions:(NSUInteger)flags
 {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    DELog(@"%@",NSStringFromSelector(_cmd));
     [_btnRecord setEnabled:YES];
 }
 

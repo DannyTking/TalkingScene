@@ -39,7 +39,7 @@
 -(IBAction)tapBtn:(id)sender
 {
     TSRoleSelectViewController *role = [[[TSRoleSelectViewController alloc] init]autorelease];
-    [self.navigationController pushViewController:role animated:YES];
+    [self tsPushViewController:role];
 }
 
 @end
