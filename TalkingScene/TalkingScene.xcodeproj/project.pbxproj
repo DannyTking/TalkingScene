@@ -65,6 +65,7 @@
 		EC26B10417E9C8C800D2C947 /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10317E9C8C800D2C947 /* SharedPtr.cpp */; };
 		EC26B10717E9C8FA00D2C947 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC26B10617E9C8FA00D2C947 /* Property.cpp */; };
 		EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */; };
+		ECDA984018114186006D9885 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = ECDA983F18114186006D9885 /* Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +167,7 @@
 		EC26B10517E9C8F500D2C947 /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
 		EC26B10617E9C8FA00D2C947 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
 		EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		ECDA983F18114186006D9885 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Content; path = ../Content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
+				ECDA983F18114186006D9885 /* Content */,
 				4F86449B180FB2730003D008 /* 图片资源 */,
 				EC26B0E217E9C1D100D2C947 /* include */,
 				EC26B0E417E9C1E800D2C947 /* src */,
@@ -457,11 +460,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F476F161D9FE81200610FB2 /* Build configuration list for PBXNativeTarget "TalkingScene" */;
 			buildPhases = (
+				EC3C641518113F0E00E32256 /* Run Script-turn database SQL files into binary DBFiles */,
+				4F476EF11D9FE81200610FB2 /* Resources */,
 				4F476EEF1D9FE81200610FB2 /* Sources */,
 				4F476EF01D9FE81200610FB2 /* Frameworks */,
-				4F476EF11D9FE81200610FB2 /* Resources */,
-				EC3C641418113C9600E32256 /* Run Script-SQL Files */,
-				EC3C641518113F0E00E32256 /* Run Script-turn database SQL files into binary DBFiles */,
 			);
 			buildRules = (
 			);
@@ -520,26 +522,13 @@
 				4F8644AB180FB5E40003D008 /* ImageNameRule.rtf in Resources */,
 				4F8644AE180FB9DC0003D008 /* TS_Com_Back_Icon.png in Resources */,
 				4F8644AF180FB9DC0003D008 /* TS_Com_Back_Icon@2x.png in Resources */,
+				ECDA984018114186006D9885 /* Content in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EC3C641418113C9600E32256 /* Run Script-SQL Files */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script-SQL Files";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd $CONFIGURATION_BUILD_DIR\necho \"Configuration Build Dir:\" $CONFIGURATION_BUILD_DIR\ncd $EXECUTABLE_FOLDER_PATH\necho \"Executable Folder Path:\" $EXECUTABLE_FOLDER_PATH\necho \"RUNNING SQL SCRIPT FOR THIS CONFIGURATION ($TARGETNAME-$CONFIGURATION)...\"\nSQL_FILE=$PROJECT_DIR/Scripts/SQLFiles/$TARGETNAME-$CONFIGURATION\nDB_FILE=Content/Data/talkingScene.db\n\nif [ ! -f $DB_FILE ]; then\nDB_FILE=Content/Data/talkingScene-lite.db\nfi\n\necho \"SQL File\" $SQL_FILE\n\necho \"DB File\" $DB_FILE\n\nif [ -f $SQL_FILE ]; then\nsqlite3 $DB_FILE < $SQL_FILE\nelse\necho \"SQL Script not found:\" $SQL_FILE\nfi";
-		};
 		EC3C641518113F0E00E32256 /* Run Script-turn database SQL files into binary DBFiles */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,7 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"turning SQL files into binary .DB files...\"\n\n. \"$PROJECT_DIR\"/../ContentRaw/Data/build_db_from_sql.sh \"$PROJECT_DIR\"/../ContentRaw/Data \"$PROJECT_DIR\"/../Content/Data\n\n#update the content,for xcode 5 doesn't update auto\ntouch \"$PROJECT_DIR\"/../Content";
+			shellScript = "#!/bin/bash\n# Auto Increment Version Script\necho \"turning SQL files into binary .DB files...\"\n\n. \"$PROJECT_DIR\"/../ContentRaw/Data/build_db_from_sql.sh \"$PROJECT_DIR\"/../ContentRaw/Data \"$PROJECT_DIR\"/../Content/Data\n\n#update the content,for xcode 5 doesn't update auto\ntouch \"$PROJECT_DIR\"/../Content";
 		};
 /* End PBXShellScriptBuildPhase section */
 
