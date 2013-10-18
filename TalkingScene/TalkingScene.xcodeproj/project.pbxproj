@@ -219,7 +219,6 @@
 		4F476EEA1D9FE81200610FB2 = {
 			isa = PBXGroup;
 			children = (
-				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				EC26B0E217E9C1D100D2C947 /* include */,
 				EC26B0E417E9C1E800D2C947 /* src */,
 				4F476EFC1D9FE81200610FB2 /* TalkingScene */,
@@ -239,6 +238,7 @@
 		4F476EF51D9FE81200610FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				4F00A6C61802649E003B057C /* QuartzCore.framework */,
 				4F5BB4E417FB0A070010B422 /* AVFoundation.framework */,
 				4F476EF61D9FE81200610FB2 /* UIKit.framework */,
