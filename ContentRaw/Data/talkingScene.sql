@@ -39,7 +39,7 @@ CREATE TABLE "StoreInfo" ("ID" INTEGER PRIMARY KEY  NOT NULL  UNIQUE ,"Coins" IN
 INSERT INTO "StoreInfo" VALUES(1,1000,0,'UI_Store_btn_price_normal.webp','UI_Store_btn_price_pressed.webp','UI_Store_coin05.webp','','','coins_01','COINS_PRICE_IOS_01','','');
 INSERT INTO "StoreInfo" VALUES(2,2100,0,'','','UI_Store_coin06.webp','','','coins_02','COINS_PRICE_IOS_02','','');
 
-CREATE TABLE "StoryTable" ("StoryID" INTEGER PRIMARY KEY NOT NULL UNIQUE, "StoryName" TEXT NOT NULL DEFAULT 'ST_', "StroyIcon" TEXT NOT NULL,  "StoryBrief" TEXT NOT NULL DEFAULT '_BRF', "StoryAuthor" TEXT NOT NULL DEFAULT '_ATH', "StoryStars" INTEGER,NOT NULL  DEFAULT (0));
+CREATE TABLE "StoryTable" ("StoryID" INTEGER PRIMARY KEY NOT NULL UNIQUE, "StoryName" TEXT NOT NULL DEFAULT 'ST_', "StroyIcon" TEXT NOT NULL, "StoryBrief" TEXT NOT NULL DEFAULT '_BRF', "StoryAuthor" TEXT NOT NULL DEFAULT '_ATH', "StoryStars" INTEGER NOT NULL  DEFAULT (0));
 INSERT INTO "StoryTable" VALUES(4001,'ST_XI_YOU_JI_PowerUpInfo','XI_YOU_JI.png','XI_YOU_JI_BRF','XI_YOU_JI_ATH',1);
 INSERT INTO "StoryTable" VALUES(4002,'ST_DA_CHANG_JIN','DA_CHANG_JIN.png','DA_CHANG_JIN_BRF','DA_CHANG_JIN_ATH',1);
 
