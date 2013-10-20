@@ -121,7 +121,8 @@ typedef enum {
             [viewController didMoveToParentViewController:self];
             _animationInProgress = NO;
             _gestures = [[NSMutableArray alloc] init];
-            [self addPanGestureToView:[self currentViewController].view];
+            //modify by lwj
+//            [self addPanGestureToView:[self currentViewController].view];
             handler();
         }
     }];
