@@ -33,7 +33,7 @@
 		4F476F0D1D9FE81200610FB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F0C1D9FE81200610FB2 /* Default-568h@2x.png */; };
 		4F476F101D9FE81200610FB2 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F476F0F1D9FE81200610FB2 /* ViewController.mm */; };
 		4F476F131D9FE81200610FB2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F111D9FE81200610FB2 /* ViewController.xib */; };
-		4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */; };
+		4F57A68618039CA000A581D8 /* TSSceneSelectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67418039CA000A581D8 /* TSSceneSelectViewController.mm */; };
 		4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */; };
 		4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */; };
 		4F57A68918039CA000A581D8 /* TSStorySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */; };
@@ -115,7 +115,7 @@
 		4F476F0F1D9FE81200610FB2 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		4F476F121D9FE81200610FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		4F57A67318039CA000A581D8 /* TSSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSceneSelectViewController.h; sourceTree = "<group>"; };
-		4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSceneSelectViewController.m; sourceTree = "<group>"; };
+		4F57A67418039CA000A581D8 /* TSSceneSelectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSSceneSelectViewController.mm; sourceTree = "<group>"; };
 		4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSceneSelectViewController.xib; sourceTree = "<group>"; };
 		4F57A67718039CA000A581D8 /* TSStorySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorySelectViewController.h; sourceTree = "<group>"; };
 		4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStorySelectViewController.m; sourceTree = "<group>"; };
@@ -168,6 +168,7 @@
 		EC26B10617E9C8FA00D2C947 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
 		EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		ECDA983F18114186006D9885 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Content; path = ../Content; sourceTree = "<group>"; };
+		ECED7C2D18151FA0003C446F /* DBTableConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTableConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				4F57A67318039CA000A581D8 /* TSSceneSelectViewController.h */,
-				4F57A67418039CA000A581D8 /* TSSceneSelectViewController.m */,
+				4F57A67418039CA000A581D8 /* TSSceneSelectViewController.mm */,
 				4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */,
 			);
 			name = "选剧情";
@@ -431,6 +432,7 @@
 				EC26B0FB17E9C75F00D2C947 /* FileHelper.h */,
 				EC26B0FE17E9C82E00D2C947 /* Logger.h */,
 				EC26B10217E9C8C200D2C947 /* SharedPtr.h */,
+				ECED7C2D18151FA0003C446F /* DBTableConstants.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -574,7 +576,7 @@
 				4F00A6C318026477003B057C /* UINavigationController+DelegateFixes.m in Sources */,
 				4F00A6C418026477003B057C /* UIView+ImageSnapshot.m in Sources */,
 				4F00A6C518026477003B057C /* UIViewController+RESideMenu.m in Sources */,
-				4F57A68618039CA000A581D8 /* TSSceneSelectViewController.m in Sources */,
+				4F57A68618039CA000A581D8 /* TSSceneSelectViewController.mm in Sources */,
 				EC26B0ED17E9C62300D2C947 /* MemberCallback.cpp in Sources */,
 				EC26B0F017E9C66400D2C947 /* FileManager.cpp in Sources */,
 				EC26B0FD17E9C76B00D2C947 /* FileHelper.cpp in Sources */,

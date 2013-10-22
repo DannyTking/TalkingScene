@@ -22,4 +22,13 @@
 -(IBAction)tapBtnPlay:(id)sender;
 
 
+#pragma mark Database Encrypt
+//chase 2013-05-28
+//rekey the .db in ./Content
+-(void) rekeyBundleDB:(NSString*)userDatabase;
+-(void) vertifyBundleSqlite:(int) databaseKey;
+-(void) vertifySqliteKey:(int) databaseKey;
+-(const char*) getSqliteKey;
+-(const char*) getBundleSqliteKey;
+
 @end

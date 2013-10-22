@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DatabaseManager.h"
-using namespace Walaber;
+#import "DBTableConstants.h"
 
 @interface ViewController ()
 
@@ -45,39 +45,6 @@ using namespace Walaber;
     _audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:sourcePath error:nil];
     _audioPlayer.delegate = self;
     _audioPlayer.volume=1.0;
-    
-    
-    NSString* updateFilePath = [@"" stringByAppendingPathComponent:@"Content/Perry/Data/updateScript.sql"];
-    
-    NSFileManager* fileMgr = [NSFileManager defaultManager];
-    
-    if([fileMgr fileExistsAtPath:updateFilePath])
-    {
-        // Check if update sql exists- run it
-        std::string updateFile = [updateFilePath UTF8String];
-        
-        printf("[WaterConceptViewController] Attempting to run lotw update script: %s\n", updateFile.c_str());
-        
-        // Callbacks
-//        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseCompletedCallback));
-//        CallbackPtr completeCallback = static_pointer_cast<Callback>(memcallback);
-//        
-//        MemberCallbackPtr<DatabaseCallbackClass>::type memcallback2(new MemberCallback<DatabaseCallbackClass>(dcc, &DatabaseCallbackClass::databaseErrorCallback));
-//        CallbackPtr errorCallback = static_pointer_cast<Callback>(memcallback2);
-//        
-//        // GO GO GO!!
-//        DatabaseManager::runSQL(  PC::DI_Default, updateFile, completeCallback, errorCallback );
-//        
-//        // Send notification to GameSettings to hook up this level for play
-//        Message m(MC_System, PC::MID_NotifyLevelOfWeekAMPSDownloadSuccess);
-//        m.Properties.setValueForKey("AssetStoryLine", Property ( (int)assetStoryLine ));
-//        Walaber::BroadcastManager::getInstancePtr()->messageTx(m);
-        
-    }
-    else
-    {
-        DELog(@"[WaterConceptViewController] Error: Update File not found");
-    }
 
     
 }
@@ -163,6 +130,110 @@ using namespace Walaber;
     DELog(@"%@",NSStringFromSelector(_cmd));
     [_btnRecord setEnabled:YES];
 }
+
+
+#pragma mark Database Encrypt
+
+//debug. encrypt the content db.Don't call this,because the .db is already encrypted
+-(void) keyBundleDB:(NSString*)userDatabase
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *encryptName = [documentsDirectory stringByAppendingPathComponent:@"encrypt.db"];
+    
+    //read db
+    sqlite3 *db;
+    
+    int code = sqlite3_open([userDatabase UTF8String], &db);
+    if (code == SQLITE_OK) {
+        
+        NSString *key = @"chase";
+        
+        NSString *sqlString = [NSString stringWithFormat:@"ATTACH DATABASE '%@' AS encrypted KEY '%@';",encryptName,key];
+        int ret = sqlite3_exec(db, [sqlString UTF8String] , NULL, NULL, NULL);
+        
+        ret = sqlite3_exec(db, "SELECT sqlcipher_export('encrypted');" , NULL, NULL, NULL);
+        ret = sqlite3_exec(db, "DETACH DATABASE encrypted;" , NULL, NULL, NULL);
+        
+        //test decrypt
+        /*NSString *decryptName = [documentsDirectory stringByAppendingPathComponent:@"decryptName.db"];
+         sqlString = [NSString stringWithFormat:@"ATTACH DATABASE '%@' AS plaintext KEY '';",decryptName];
+         ret = sqlite3_exec(db, [sqlString UTF8String] , NULL, NULL, NULL);
+         
+         ret = sqlite3_exec(db, "SELECT sqlcipher_export('plaintext');" , NULL, NULL, NULL);
+         ret = sqlite3_exec(db, "DETACH DATABASE plaintext;" , NULL, NULL, NULL);
+         */
+        sqlite3_close(db);
+        
+    }
+}
+
+//rekey the .db in ./Content
+-(void) rekeyBundleDB:(NSString*)userDatabase
+{
+    
+#ifndef NO_DATA_ENCRYTP
+    
+    //rekey the content db
+    //read db
+    sqlite3 *db;
+    
+    int code = sqlite3_open([userDatabase UTF8String], &db);
+    if (code == SQLITE_OK)
+    {
+        int ret;
+//        //vertify original key
+//        const char* key = [self getBundleSqliteKey];
+//        ret = sqlite3_key(db, key, strlen(key));
+//        
+//        
+//        const char* newKey = [self getSqliteKey];
+//        ret = sqlite3_trace(db, newKey, strlen(newKey));
+        
+        sqlite3_close(db);
+    }
+#endif
+}
+
+-(void) vertifyBundleSqlite:(int) databaseKey
+{
+#ifndef NO_DATA_ENCRYTP
+    const char* key = [self getBundleSqliteKey];
+    sqlite3 *db = Walaber::DatabaseManager::getDatabase(databaseKey);
+    
+//    if (db) {
+//        int ret = sqlite3_key(db, key, strlen(key));
+//        printf("vertify buidle db %d",ret);
+//    }
+#endif
+}
+
+-(void) vertifySqliteKey:(int) databaseKey
+{
+#ifndef NO_DATA_ENCRYTP
+    const char* key = [self getSqliteKey];
+    sqlite3 *db = Walaber::DatabaseManager::getDatabase(databaseKey);
+    
+    if (db) {
+//        int ret = sqlite3_key(db, key, strlen(key));
+        printf("vertify user db %d",databaseKey);
+    }
+#endif
+}
+
+-(const char*) getSqliteKey
+{
+    NSString * macAddress = @"mac";
+    NSString * code = [NSString stringWithFormat:@"%@V01YWVk=",macAddress];
+    //TODO:create key
+    return [code UTF8String];
+}
+
+-(const char*) getBundleSqliteKey
+{
+    return [@"d2hlcmUgaXMgbXkgeHl5" UTF8String];
+}
+
 
 
 @end
