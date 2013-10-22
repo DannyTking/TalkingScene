@@ -70,7 +70,8 @@ typedef enum {
     return self;
 }
 
-- (void) dealloc {
+- (void) dealloc
+{
     self.viewControllers = nil;
     _gestures  = nil;
     _blackMask = nil;

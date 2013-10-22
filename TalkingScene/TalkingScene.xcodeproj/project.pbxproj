@@ -44,6 +44,9 @@
 		4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A68418039CA000A581D8 /* TSRoleSelectViewController.m */; };
 		4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */; };
 		4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BB4E417FB0A070010B422 /* AVFoundation.framework */; };
+		4F7C03481816DFE900B91B9A /* RCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C03451816DFE900B91B9A /* RCLabel.m */; };
+		4F7C03491816DFE900B91B9A /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C03471816DFE900B91B9A /* RTLabel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4F7C034B1816E04800B91B9A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C034A1816E04800B91B9A /* CoreText.framework */; };
 		4F86449A180F8ED50003D008 /* FlipBoardNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F864499180F8ED50003D008 /* FlipBoardNavigationController.m */; };
 		4F8644A3180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F86449D180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png */; };
 		4F8644A4180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F86449E180FB3F70003D008 /* TS_Com_NavBarItem_BKG@2x.png */; };
@@ -131,6 +134,11 @@
 		4F57A68518039CA000A581D8 /* TSRoleSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRoleSelectViewController.xib; sourceTree = "<group>"; };
 		4F57A6941803AB3000A581D8 /* TSGlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGlobalMacros.h; sourceTree = "<group>"; };
 		4F5BB4E417FB0A070010B422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F7C03441816DFE900B91B9A /* RCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLabel.h; sourceTree = "<group>"; };
+		4F7C03451816DFE900B91B9A /* RCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLabel.m; sourceTree = "<group>"; };
+		4F7C03461816DFE900B91B9A /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
+		4F7C03471816DFE900B91B9A /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
+		4F7C034A1816E04800B91B9A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		4F864498180F8ED50003D008 /* FlipBoardNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipBoardNavigationController.h; sourceTree = "<group>"; };
 		4F864499180F8ED50003D008 /* FlipBoardNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipBoardNavigationController.m; sourceTree = "<group>"; };
 		4F86449D180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TS_Com_NavBarItem_BKG.png; sourceTree = "<group>"; };
@@ -176,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7C034B1816E04800B91B9A /* CoreText.framework in Frameworks */,
 				EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */,
 				4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */,
 				4F5BB4E517FB0A070010B422 /* AVFoundation.framework in Frameworks */,
@@ -191,6 +200,7 @@
 		4F00A69918026477003B057C /* AssistFramework */ = {
 			isa = PBXGroup;
 			children = (
+				4F7C03431816DFE900B91B9A /* RichLabel */,
 				4F864497180F8ED50003D008 /* FlipBoardNavigationController */,
 				4F00A69A18026477003B057C /* FlipBoard */,
 				4F00A6A518026477003B057C /* RESideMenu */,
@@ -264,6 +274,7 @@
 		4F476EF51D9FE81200610FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F7C034A1816E04800B91B9A /* CoreText.framework */,
 				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				4F00A6C61802649E003B057C /* QuartzCore.framework */,
 				4F5BB4E417FB0A070010B422 /* AVFoundation.framework */,
@@ -371,6 +382,17 @@
 			);
 			name = "宏";
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		4F7C03431816DFE900B91B9A /* RichLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C03441816DFE900B91B9A /* RCLabel.h */,
+				4F7C03451816DFE900B91B9A /* RCLabel.m */,
+				4F7C03461816DFE900B91B9A /* RTLabel.h */,
+				4F7C03471816DFE900B91B9A /* RTLabel.m */,
+			);
+			path = RichLabel;
 			sourceTree = "<group>";
 		};
 		4F864497180F8ED50003D008 /* FlipBoardNavigationController */ = {
@@ -587,6 +609,8 @@
 				4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */,
 				4F86449A180F8ED50003D008 /* FlipBoardNavigationController.m in Sources */,
 				4F8644B2180FBAB20003D008 /* TSNavigationBar.m in Sources */,
+				4F7C03481816DFE900B91B9A /* RCLabel.m in Sources */,
+				4F7C03491816DFE900B91B9A /* RTLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

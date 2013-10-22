@@ -24,4 +24,6 @@ typedef void (^TSNavigationControllerCompletionBlock)(void);
 - (void) tsPopViewController;
 - (void) tsPopViewControllerWithCompletion:(TSNavigationControllerCompletionBlock)handler;
 
+- (void)setBaseBackgourndColorWithImageName:(NSString *)imageName;
+
 @end
