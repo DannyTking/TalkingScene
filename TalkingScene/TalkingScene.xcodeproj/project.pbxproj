@@ -35,7 +35,7 @@
 		4F476F131D9FE81200610FB2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F476F111D9FE81200610FB2 /* ViewController.xib */; };
 		4F57A68618039CA000A581D8 /* TSSceneSelectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67418039CA000A581D8 /* TSSceneSelectViewController.mm */; };
 		4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */; };
-		4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */; };
+		4F57A68818039CA000A581D8 /* TSStorySelectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67818039CA000A581D8 /* TSStorySelectViewController.mm */; };
 		4F57A68918039CA000A581D8 /* TSStorySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */; };
 		4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F57A67C18039CA000A581D8 /* TSLoginViewController.m */; };
 		4F57A68B18039CA000A581D8 /* TSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F57A67D18039CA000A581D8 /* TSLoginViewController.xib */; };
@@ -121,7 +121,7 @@
 		4F57A67418039CA000A581D8 /* TSSceneSelectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSSceneSelectViewController.mm; sourceTree = "<group>"; };
 		4F57A67518039CA000A581D8 /* TSSceneSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSceneSelectViewController.xib; sourceTree = "<group>"; };
 		4F57A67718039CA000A581D8 /* TSStorySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorySelectViewController.h; sourceTree = "<group>"; };
-		4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStorySelectViewController.m; sourceTree = "<group>"; };
+		4F57A67818039CA000A581D8 /* TSStorySelectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSStorySelectViewController.mm; sourceTree = "<group>"; };
 		4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSStorySelectViewController.xib; sourceTree = "<group>"; };
 		4F57A67B18039CA000A581D8 /* TSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLoginViewController.h; sourceTree = "<group>"; };
 		4F57A67C18039CA000A581D8 /* TSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLoginViewController.m; sourceTree = "<group>"; };
@@ -335,7 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				4F57A67718039CA000A581D8 /* TSStorySelectViewController.h */,
-				4F57A67818039CA000A581D8 /* TSStorySelectViewController.m */,
+				4F57A67818039CA000A581D8 /* TSStorySelectViewController.mm */,
 				4F57A67918039CA000A581D8 /* TSStorySelectViewController.xib */,
 			);
 			name = "选故事";
@@ -603,7 +603,7 @@
 				EC26B0F017E9C66400D2C947 /* FileManager.cpp in Sources */,
 				EC26B0FD17E9C76B00D2C947 /* FileHelper.cpp in Sources */,
 				EC26B10017E9C83500D2C947 /* Logger.cpp in Sources */,
-				4F57A68818039CA000A581D8 /* TSStorySelectViewController.m in Sources */,
+				4F57A68818039CA000A581D8 /* TSStorySelectViewController.mm in Sources */,
 				4F57A68A18039CA000A581D8 /* TSLoginViewController.m in Sources */,
 				4F57A68C18039CA000A581D8 /* TSBaseViewController.m in Sources */,
 				4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */,

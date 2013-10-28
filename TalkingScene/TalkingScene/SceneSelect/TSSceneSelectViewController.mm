@@ -22,45 +22,31 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
-        NSString* dbBase = @"Content/Data/talkingScene.db";
-#ifdef _LITE
-        dbBase = @"talkingScene-Lite.db";
-#endif
-        
-        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-        NSString *documentsDirectory = [paths objectAtIndex:0];
-        NSString* userDatabase = [documentsDirectory stringByAppendingPathComponent:dbBase];
-        NSLog(@"userDatabase: %@", userDatabase);
-        // first, check if there is a database at all in the user store path.
-        NSFileManager* fmgr = [NSFileManager defaultManager];
-        
-        if ([fmgr fileExistsAtPath:userDatabase])
+        // Custom initialization
+        // 根据故事ID选择剧情 ymtang
+        std::string subSelect = TB::StoryFSceneFieldNames[TB::SFS_SceneID];
+        std::string subWhere = "";//TB::StoryFSceneFieldNames[TB::SFS_StoryID] + std::string("=") + Walaber::StringHelper::intToStr(storyid);
+        Walaber::DatabaseIterator subDit(TB::DI_Default, subSelect, "StoryFScene", subWhere);
+        while (subDit.next())
         {
-            // Open the user's DB
-            if (Walaber::DatabaseManager::openDatabase( std::string( [userDatabase UTF8String] ), TB::DI_Default ))
+            int sceneid = subDit.getIntAtIndex(0);
+            std::string select =TB::SceneTableFieldNames[TB::ST_SceneName]+
+                            ","+TB::SceneTableFieldNames[TB::ST_SceneBrief]+
+                            ","+TB::SceneTableFieldNames[TB::ST_SceneIcon]+
+                            ","+TB::SceneTableFieldNames[TB::ST_SceneStars];
+            std::string where =TB::SceneTableFieldNames[TB::ST_SceneID]+std::string("=")+Walaber::StringHelper::intToStr(sceneid);
+            Walaber::DatabaseIterator dit( TB::DI_Default, select, "SceneTable",where );
+            
+            if(dit.next())
             {
-                Walaber::DatabaseManager::closeDatabase(TB::DI_Default);
+                // Get the values from the DB
+                std::string sName = dit.getStringAtIndex(0);
+                std::string sBrief = dit.getStringAtIndex(1);
+                std::string sIcon = dit.getStringAtIndex(2);
+                std::int16_t sStars = dit.getIntAtIndex(3);
+                std::printf("ST_SceneID id is %d, name is %s, brief is %s, icon is%s,stars is %d\t\n",sceneid,sName.c_str(),sBrief.c_str(),sIcon.c_str(),sStars);
             }
         }
-
-        // Custom initialization
-        std::string select = TB::ContentTableFieldNames[TB::CT_ContentID];
-        std::string where = TB::ContentTableFieldNames[TB::CT_SequenceID] + std::string("='") + std::string("*'");
-        
-        Walaber::DatabaseIterator dit( TB::DI_Default, select, "ContentTable", where );
-        
-        while(dit.next())
-        {
-            // Get the values from the DB
-            int id = dit.getIntAtIndex(0);
-            std::printf("id is %d",id);
-            // Now unlock that first level!
-            //        std::string setU = PC::LevelInfoFieldNames[PC::LI_Unlocked] + std::string("=1");
-            //        std::string whereU = PC::LevelInfoFieldNames[PC::LI_ID] + std::string("=") + StringHelper::intToStr(id);
-            //
-            //        DatabaseManager::updateEntry(PC::DI_Default, "LevelInfo", setU, whereU);
-        }
-
     }
     return self;
 }
@@ -69,22 +55,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    std::string select = TB::ContentTableFieldNames[TB::CT_ContentID];
-    std::string where = TB::ContentTableFieldNames[TB::CT_SequenceID] + std::string("='") + std::string("*'");
-    
-    Walaber::DatabaseIterator dit( TB::DI_Default, select, "ContentTable", where );
-    
-    while(dit.next())
-    {
-        // Get the values from the DB
-        int id = dit.getIntAtIndex(0);
-        std::printf("id is %d",id);
-        // Now unlock that first level!
-//        std::string setU = PC::LevelInfoFieldNames[PC::LI_Unlocked] + std::string("=1");
-//        std::string whereU = PC::LevelInfoFieldNames[PC::LI_ID] + std::string("=") + StringHelper::intToStr(id);
-//        
-//        DatabaseManager::updateEntry(PC::DI_Default, "LevelInfo", setU, whereU);
-    }
 }
 
 - (void)didReceiveMemoryWarning

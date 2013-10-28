@@ -44,7 +44,18 @@ namespace Walaber
         /// this is the main database for all game data, opened at launch, and closed on quit.
 		typedef std::map< int, sqlite3* >		IntegerToDatabaseMap;
 		static IntegerToDatabaseMap				databaseMap;
-        
+        /*
+         #ifdef __GNUC__
+         #define DEPRECATED(func) func __attribute__ ((deprecated))
+         #elif defined(_MSC_VER)
+         #define DEPRECATED(func) __declspec(deprecated) func
+         #else
+         #pragma message("WARNING: You need to implement DEPRECATED for this compiler")
+         #define DEPRECATED(func) func
+         #endif
+         DEPRECATED(static bool openDatabase( const std::string& filename ));
+         static bool openDatabase(const std::string& filename) __attribute__ ((deprecated))
+         */
         //------------------------------------------------------------------------------------------
         DEPRECATED(static bool openDatabase( const std::string& filename ));
         DEPRECATED(static void closeDatabase());
