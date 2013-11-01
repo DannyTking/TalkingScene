@@ -7,7 +7,18 @@
 //
 
 #import "TSBaseViewController.h"
+#import "TSDialogView.h"
 
-@interface TSLoginViewController : TSBaseViewController
+@interface TSLoginViewController : TSBaseViewController<UIGestureRecognizerDelegate,TSDialogViewDelegate>
+
+@property(nonatomic,retain) UIScrollView *srlContainer;
+@property(nonatomic,retain) TSDialogView *left1;
+@property(nonatomic,retain) TSDialogView *left2;
+@property(nonatomic,retain) TSDialogView *right1;
+@property(nonatomic,retain) TSDialogView *right2;
+@property(nonatomic,retain) UIButton *btnLogin;
+@property(nonatomic,retain) NSString *useName;
+@property(nonatomic,retain) NSString *password;
+
 
 @end
