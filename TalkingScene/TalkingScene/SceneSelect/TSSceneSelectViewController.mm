@@ -54,6 +54,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.tsNavBar setTitle:@"选剧情"];
     // Do any additional setup after loading the view from its nib.
 }
 

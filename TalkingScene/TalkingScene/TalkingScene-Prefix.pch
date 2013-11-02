@@ -13,6 +13,7 @@
     #import <Foundation/Foundation.h>
     #import "TSGlobalMacros.h"
     #import "FlipBoardNavigationController.h"
+    #import "UIColor+Hex.h"
 #endif
 
 

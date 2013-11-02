@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1839BB011824D7D400EEEB03 /* Callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF11824D7D400EEEB03 /* Callback.cpp */; };
-		1839BB021824D7D400EEEB03 /* DatabaseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF21824D7D400EEEB03 /* DatabaseManager.cpp */; };
-		1839BB031824D7D400EEEB03 /* FileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF31824D7D400EEEB03 /* FileHelper.cpp */; };
-		1839BB041824D7D400EEEB03 /* FileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF41824D7D400EEEB03 /* FileManager.cpp */; };
-		1839BB051824D7D400EEEB03 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF51824D7D400EEEB03 /* Logger.cpp */; };
-		1839BB061824D7D400EEEB03 /* MemberCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF61824D7D400EEEB03 /* MemberCallback.cpp */; };
-		1839BB071824D7D400EEEB03 /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF71824D7D400EEEB03 /* PlatformManager.cpp */; };
-		1839BB081824D7D400EEEB03 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF81824D7D400EEEB03 /* Property.cpp */; };
-		1839BB091824D7D400EEEB03 /* PropertyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAF91824D7D400EEEB03 /* PropertyList.cpp */; };
-		1839BB0A1824D7D400EEEB03 /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAFA1824D7D400EEEB03 /* SharedPtr.cpp */; };
-		1839BB0C1824D7D400EEEB03 /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAFD1824D7D400EEEB03 /* StringHelper.cpp */; };
-		1839BB0D1824D7D400EEEB03 /* TextManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAFE1824D7D400EEEB03 /* TextManager.cpp */; };
-		1839BB0E1824D7D400EEEB03 /* UTF8Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BAFF1824D7D400EEEB03 /* UTF8Helper.cpp */; };
-		1839BB0F1824D7D400EEEB03 /* XML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1839BB001824D7D400EEEB03 /* XML.cpp */; };
-		1839BB111824D80A00EEEB03 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839BB101824D80A00EEEB03 /* libxml2.dylib */; };
+		180210EE1823F2A400F8DA5E /* Callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E11823F2A400F8DA5E /* Callback.cpp */; };
+		180210EF1823F2A400F8DA5E /* DatabaseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E21823F2A400F8DA5E /* DatabaseManager.cpp */; };
+		180210F01823F2A400F8DA5E /* FileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E31823F2A400F8DA5E /* FileHelper.cpp */; };
+		180210F11823F2A400F8DA5E /* FileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E41823F2A400F8DA5E /* FileManager.cpp */; };
+		180210F21823F2A400F8DA5E /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E51823F2A400F8DA5E /* Logger.cpp */; };
+		180210F31823F2A400F8DA5E /* MemberCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E61823F2A400F8DA5E /* MemberCallback.cpp */; };
+		180210F41823F2A400F8DA5E /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E71823F2A400F8DA5E /* PlatformManager.cpp */; };
+		180210F51823F2A400F8DA5E /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E81823F2A400F8DA5E /* Property.cpp */; };
+		180210F61823F2A400F8DA5E /* PropertyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210E91823F2A400F8DA5E /* PropertyList.cpp */; };
+		180210F71823F2A400F8DA5E /* SharedPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210EA1823F2A400F8DA5E /* SharedPtr.cpp */; };
+		180210F81823F2A400F8DA5E /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210EB1823F2A400F8DA5E /* SoundManager.cpp */; };
+		180210F91823F2A400F8DA5E /* XML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180210EC1823F2A400F8DA5E /* XML.cpp */; };
+		180211001823F2B100F8DA5E /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 180210FB1823F2B100F8DA5E /* shell.c */; };
+		180211011823F2B100F8DA5E /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 180210FC1823F2B100F8DA5E /* sqlite3.c */; };
+		180211021823F2B100F8DA5E /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 180210FF1823F2B100F8DA5E /* VERSION */; };
+		180211081823F45300F8DA5E /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180211051823F45300F8DA5E /* StringHelper.cpp */; };
+		180211091823F45300F8DA5E /* TextManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180211061823F45300F8DA5E /* TextManager.cpp */; };
+		1802110A1823F45300F8DA5E /* UTF8Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180211071823F45300F8DA5E /* UTF8Helper.cpp */; };
+		180211261823F81E00F8DA5E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 180211251823F81E00F8DA5E /* libxml2.dylib */; };
 		4F00A6B818026477003B057C /* AnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A69C18026477003B057C /* AnimationDelegate.m */; };
 		4F00A6B918026477003B057C /* AnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A69E18026477003B057C /* AnimationFrame.m */; };
 		4F00A6BA18026477003B057C /* FlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A6A018026477003B057C /* FlipView.m */; };
@@ -96,40 +100,60 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1839BADA1824D7C200EEEB03 /* Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
-		1839BADB1824D7C200EEEB03 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
-		1839BADC1824D7C200EEEB03 /* DBTableConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTableConstants.h; sourceTree = "<group>"; };
-		1839BADD1824D7C200EEEB03 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
-		1839BADE1824D7C200EEEB03 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
-		1839BADF1824D7C200EEEB03 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
-		1839BAE01824D7C200EEEB03 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
-		1839BAE21824D7C200EEEB03 /* WalaberMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalaberMath.h; sourceTree = "<group>"; };
-		1839BAE31824D7C200EEEB03 /* MemberCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCallback.h; sourceTree = "<group>"; };
-		1839BAE41824D7C200EEEB03 /* PlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformManager.h; sourceTree = "<group>"; };
-		1839BAE51824D7C200EEEB03 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
-		1839BAE61824D7C200EEEB03 /* PropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyList.h; sourceTree = "<group>"; };
-		1839BAE71824D7C200EEEB03 /* ResultCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCodes.h; sourceTree = "<group>"; };
-		1839BAE81824D7C200EEEB03 /* SharedPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedPtr.h; sourceTree = "<group>"; };
-		1839BAEB1824D7C200EEEB03 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
-		1839BAEC1824D7C200EEEB03 /* TextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextManager.h; sourceTree = "<group>"; };
-		1839BAED1824D7C200EEEB03 /* UTF8Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTF8Helper.h; sourceTree = "<group>"; };
-		1839BAEE1824D7C200EEEB03 /* XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML.h; sourceTree = "<group>"; };
-		1839BAEF1824D7C200EEEB03 /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
-		1839BAF11824D7D400EEEB03 /* Callback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Callback.cpp; sourceTree = "<group>"; };
-		1839BAF21824D7D400EEEB03 /* DatabaseManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatabaseManager.cpp; sourceTree = "<group>"; };
-		1839BAF31824D7D400EEEB03 /* FileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileHelper.cpp; sourceTree = "<group>"; };
-		1839BAF41824D7D400EEEB03 /* FileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileManager.cpp; sourceTree = "<group>"; };
-		1839BAF51824D7D400EEEB03 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
-		1839BAF61824D7D400EEEB03 /* MemberCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemberCallback.cpp; sourceTree = "<group>"; };
-		1839BAF71824D7D400EEEB03 /* PlatformManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformManager.cpp; sourceTree = "<group>"; };
-		1839BAF81824D7D400EEEB03 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
-		1839BAF91824D7D400EEEB03 /* PropertyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropertyList.cpp; sourceTree = "<group>"; };
-		1839BAFA1824D7D400EEEB03 /* SharedPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPtr.cpp; sourceTree = "<group>"; };
-		1839BAFD1824D7D400EEEB03 /* StringHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringHelper.cpp; sourceTree = "<group>"; };
-		1839BAFE1824D7D400EEEB03 /* TextManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextManager.cpp; sourceTree = "<group>"; };
-		1839BAFF1824D7D400EEEB03 /* UTF8Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8Helper.cpp; sourceTree = "<group>"; };
-		1839BB001824D7D400EEEB03 /* XML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XML.cpp; sourceTree = "<group>"; };
-		1839BB101824D80A00EEEB03 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		180210B41823EA0D00F8DA5E /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Dependencies; path = ../Dependencies; sourceTree = "<group>"; };
+		180210CB1823F29200F8DA5E /* Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
+		180210CC1823F29200F8DA5E /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		180210CD1823F29200F8DA5E /* DBTableConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTableConstants.h; sourceTree = "<group>"; };
+		180210CE1823F29200F8DA5E /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		180210CF1823F29200F8DA5E /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		180210D01823F29200F8DA5E /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		180210D11823F29200F8DA5E /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		180210D31823F29200F8DA5E /* WalaberMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalaberMath.h; sourceTree = "<group>"; };
+		180210D41823F29200F8DA5E /* MemberCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCallback.h; sourceTree = "<group>"; };
+		180210D51823F29200F8DA5E /* PlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformManager.h; sourceTree = "<group>"; };
+		180210D61823F29200F8DA5E /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		180210D71823F29200F8DA5E /* PropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyList.h; sourceTree = "<group>"; };
+		180210D81823F29200F8DA5E /* ResultCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCodes.h; sourceTree = "<group>"; };
+		180210D91823F29200F8DA5E /* SharedPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedPtr.h; sourceTree = "<group>"; };
+		180210DA1823F29200F8DA5E /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		180210DC1823F29200F8DA5E /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		180210DD1823F29200F8DA5E /* TextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextManager.h; sourceTree = "<group>"; };
+		180210DE1823F29200F8DA5E /* UTF8Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTF8Helper.h; sourceTree = "<group>"; };
+		180210DF1823F29200F8DA5E /* XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML.h; sourceTree = "<group>"; };
+		180210E11823F2A400F8DA5E /* Callback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Callback.cpp; sourceTree = "<group>"; };
+		180210E21823F2A400F8DA5E /* DatabaseManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatabaseManager.cpp; sourceTree = "<group>"; };
+		180210E31823F2A400F8DA5E /* FileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileHelper.cpp; sourceTree = "<group>"; };
+		180210E41823F2A400F8DA5E /* FileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileManager.cpp; sourceTree = "<group>"; };
+		180210E51823F2A400F8DA5E /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		180210E61823F2A400F8DA5E /* MemberCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemberCallback.cpp; sourceTree = "<group>"; };
+		180210E71823F2A400F8DA5E /* PlatformManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformManager.cpp; sourceTree = "<group>"; };
+		180210E81823F2A400F8DA5E /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		180210E91823F2A400F8DA5E /* PropertyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropertyList.cpp; sourceTree = "<group>"; };
+		180210EA1823F2A400F8DA5E /* SharedPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPtr.cpp; sourceTree = "<group>"; };
+		180210EB1823F2A400F8DA5E /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		180210EC1823F2A400F8DA5E /* XML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XML.cpp; sourceTree = "<group>"; };
+		180210FB1823F2B100F8DA5E /* shell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shell.c; sourceTree = "<group>"; };
+		180210FC1823F2B100F8DA5E /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		180210FD1823F2B100F8DA5E /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		180210FE1823F2B100F8DA5E /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
+		180210FF1823F2B100F8DA5E /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		180211031823F33100F8DA5E /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
+		180211051823F45300F8DA5E /* StringHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringHelper.cpp; sourceTree = "<group>"; };
+		180211061823F45300F8DA5E /* TextManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextManager.cpp; sourceTree = "<group>"; };
+		180211071823F45300F8DA5E /* UTF8Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8Helper.cpp; sourceTree = "<group>"; };
+		1802110C1823F65100F8DA5E /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		1802110D1823F65100F8DA5E /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphoneos.a; sourceTree = "<group>"; };
+		1802110E1823F65100F8DA5E /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
+		1802110F1823F65100F8DA5E /* libfmodex_reduced_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_reduced_iphoneos.a; sourceTree = "<group>"; };
+		180211101823F65100F8DA5E /* libfmodex_reduced_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_reduced_iphonesimulator.a; sourceTree = "<group>"; };
+		180211111823F65100F8DA5E /* libfmodexL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphoneos.a; sourceTree = "<group>"; };
+		180211121823F65100F8DA5E /* libfmodexL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphonesimulator.a; sourceTree = "<group>"; };
+		180211131823F65100F8DA5E /* libfmodexL_reduced_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_reduced_iphoneos.a; sourceTree = "<group>"; };
+		180211141823F65100F8DA5E /* libfmodexL_reduced_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_reduced_iphonesimulator.a; sourceTree = "<group>"; };
+		180211161823F66700F8DA5E /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		180211171823F66700F8DA5E /* libfmodexL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodexL.dylib; sourceTree = "<group>"; };
+		180211231823F76B00F8DA5E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		180211251823F81E00F8DA5E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		4F00A69B18026477003B057C /* AnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDelegate.h; sourceTree = "<group>"; };
 		4F00A69C18026477003B057C /* AnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDelegate.m; sourceTree = "<group>"; };
 		4F00A69D18026477003B057C /* AnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFrame.h; sourceTree = "<group>"; };
@@ -251,9 +275,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1839BB111824D80A00EEEB03 /* libxml2.dylib in Frameworks */,
+<<<<<<< HEAD
+				180211261823F81E00F8DA5E /* libxml2.dylib in Frameworks */,
+=======
 				4F4D8F891823C0F000D611C8 /* MapKit.framework in Frameworks */,
 				4F4D8F871823C0E800D611C8 /* ImageIO.framework in Frameworks */,
+>>>>>>> f13084ae447a06baf360d2ccfb7d97d693a1c6c4
 				4F7C034B1816E04800B91B9A /* CoreText.framework in Frameworks */,
 				EC2DA0B21809440A0000EE60 /* libsqlite3.dylib in Frameworks */,
 				4F00A6C71802649E003B057C /* QuartzCore.framework in Frameworks */,
@@ -267,75 +294,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1839BAD91824D7C200EEEB03 /* include */ = {
+		180210CA1823F29200F8DA5E /* include */ = {
 			isa = PBXGroup;
 			children = (
-				1839BADA1824D7C200EEEB03 /* Callback.h */,
-				1839BADB1824D7C200EEEB03 /* DatabaseManager.h */,
-				1839BADC1824D7C200EEEB03 /* DBTableConstants.h */,
-				1839BADD1824D7C200EEEB03 /* FileHelper.h */,
-				1839BADE1824D7C200EEEB03 /* FileManager.h */,
-				1839BADF1824D7C200EEEB03 /* Logger.h */,
-				1839BAE01824D7C200EEEB03 /* macros.h */,
-				1839BAE11824D7C200EEEB03 /* Math */,
-				1839BAE31824D7C200EEEB03 /* MemberCallback.h */,
-				1839BAE41824D7C200EEEB03 /* PlatformManager.h */,
-				1839BAE51824D7C200EEEB03 /* Property.h */,
-				1839BAE61824D7C200EEEB03 /* PropertyList.h */,
-				1839BAE71824D7C200EEEB03 /* ResultCodes.h */,
-				1839BAE81824D7C200EEEB03 /* SharedPtr.h */,
-				1839BAEA1824D7C200EEEB03 /* Text */,
-				1839BAEE1824D7C200EEEB03 /* XML.h */,
-				1839BAEF1824D7C200EEEB03 /* XMLHelper.h */,
+				180210DB1823F29200F8DA5E /* Text */,
+				180210D21823F29200F8DA5E /* Math */,
+				180210CB1823F29200F8DA5E /* Callback.h */,
+				180210CC1823F29200F8DA5E /* DatabaseManager.h */,
+				180210CD1823F29200F8DA5E /* DBTableConstants.h */,
+				180210CE1823F29200F8DA5E /* FileHelper.h */,
+				180210CF1823F29200F8DA5E /* FileManager.h */,
+				180210D01823F29200F8DA5E /* Logger.h */,
+				180210D11823F29200F8DA5E /* macros.h */,
+				180210D41823F29200F8DA5E /* MemberCallback.h */,
+				180210D51823F29200F8DA5E /* PlatformManager.h */,
+				180210D61823F29200F8DA5E /* Property.h */,
+				180210D71823F29200F8DA5E /* PropertyList.h */,
+				180210D81823F29200F8DA5E /* ResultCodes.h */,
+				180210D91823F29200F8DA5E /* SharedPtr.h */,
+				180210DA1823F29200F8DA5E /* SoundManager.h */,
+				180210DF1823F29200F8DA5E /* XML.h */,
+				180211031823F33100F8DA5E /* XMLHelper.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		1839BAE11824D7C200EEEB03 /* Math */ = {
+		180210D21823F29200F8DA5E /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				1839BAE21824D7C200EEEB03 /* WalaberMath.h */,
+				180210D31823F29200F8DA5E /* WalaberMath.h */,
 			);
 			path = Math;
 			sourceTree = "<group>";
 		};
-		1839BAEA1824D7C200EEEB03 /* Text */ = {
+		180210DB1823F29200F8DA5E /* Text */ = {
 			isa = PBXGroup;
 			children = (
-				1839BAEB1824D7C200EEEB03 /* StringHelper.h */,
-				1839BAEC1824D7C200EEEB03 /* TextManager.h */,
-				1839BAED1824D7C200EEEB03 /* UTF8Helper.h */,
+				180210DC1823F29200F8DA5E /* StringHelper.h */,
+				180210DD1823F29200F8DA5E /* TextManager.h */,
+				180210DE1823F29200F8DA5E /* UTF8Helper.h */,
 			);
 			path = Text;
 			sourceTree = "<group>";
 		};
-		1839BAF01824D7D400EEEB03 /* src */ = {
+		180210E01823F2A400F8DA5E /* src */ = {
 			isa = PBXGroup;
 			children = (
-				1839BAF11824D7D400EEEB03 /* Callback.cpp */,
-				1839BAF21824D7D400EEEB03 /* DatabaseManager.cpp */,
-				1839BAF31824D7D400EEEB03 /* FileHelper.cpp */,
-				1839BAF41824D7D400EEEB03 /* FileManager.cpp */,
-				1839BAF51824D7D400EEEB03 /* Logger.cpp */,
-				1839BAF61824D7D400EEEB03 /* MemberCallback.cpp */,
-				1839BAF71824D7D400EEEB03 /* PlatformManager.cpp */,
-				1839BAF81824D7D400EEEB03 /* Property.cpp */,
-				1839BAF91824D7D400EEEB03 /* PropertyList.cpp */,
-				1839BAFA1824D7D400EEEB03 /* SharedPtr.cpp */,
-				1839BAFC1824D7D400EEEB03 /* Text */,
-				1839BB001824D7D400EEEB03 /* XML.cpp */,
+				180211041823F45300F8DA5E /* Text */,
+				180210E11823F2A400F8DA5E /* Callback.cpp */,
+				180210E21823F2A400F8DA5E /* DatabaseManager.cpp */,
+				180210E31823F2A400F8DA5E /* FileHelper.cpp */,
+				180210E41823F2A400F8DA5E /* FileManager.cpp */,
+				180210E51823F2A400F8DA5E /* Logger.cpp */,
+				180210E61823F2A400F8DA5E /* MemberCallback.cpp */,
+				180210E71823F2A400F8DA5E /* PlatformManager.cpp */,
+				180210E81823F2A400F8DA5E /* Property.cpp */,
+				180210E91823F2A400F8DA5E /* PropertyList.cpp */,
+				180210EA1823F2A400F8DA5E /* SharedPtr.cpp */,
+				180210EB1823F2A400F8DA5E /* SoundManager.cpp */,
+				180210EC1823F2A400F8DA5E /* XML.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		1839BAFC1824D7D400EEEB03 /* Text */ = {
+		180210FA1823F2B100F8DA5E /* sqlite3 */ = {
 			isa = PBXGroup;
 			children = (
-				1839BAFD1824D7D400EEEB03 /* StringHelper.cpp */,
-				1839BAFE1824D7D400EEEB03 /* TextManager.cpp */,
-				1839BAFF1824D7D400EEEB03 /* UTF8Helper.cpp */,
+				180210FB1823F2B100F8DA5E /* shell.c */,
+				180210FC1823F2B100F8DA5E /* sqlite3.c */,
+				180210FD1823F2B100F8DA5E /* sqlite3.h */,
+				180210FE1823F2B100F8DA5E /* sqlite3ext.h */,
+				180210FF1823F2B100F8DA5E /* VERSION */,
+			);
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
+		180211041823F45300F8DA5E /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				180211051823F45300F8DA5E /* StringHelper.cpp */,
+				180211061823F45300F8DA5E /* TextManager.cpp */,
+				180211071823F45300F8DA5E /* UTF8Helper.cpp */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		1802110B1823F65100F8DA5E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1802110C1823F65100F8DA5E /* libfmodex.dylib */,
+				1802110D1823F65100F8DA5E /* libfmodex_iphoneos.a */,
+				1802110E1823F65100F8DA5E /* libfmodex_iphonesimulator.a */,
+				1802110F1823F65100F8DA5E /* libfmodex_reduced_iphoneos.a */,
+				180211101823F65100F8DA5E /* libfmodex_reduced_iphonesimulator.a */,
+				180211111823F65100F8DA5E /* libfmodexL_iphoneos.a */,
+				180211121823F65100F8DA5E /* libfmodexL_iphonesimulator.a */,
+				180211131823F65100F8DA5E /* libfmodexL_reduced_iphoneos.a */,
+				180211141823F65100F8DA5E /* libfmodexL_reduced_iphonesimulator.a */,
+			);
+			name = lib;
+			path = ../Dependencies/fmod/lib;
+			sourceTree = "<group>";
+		};
+		180211151823F66700F8DA5E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				180211161823F66700F8DA5E /* libfmodex.dylib */,
+				180211171823F66700F8DA5E /* libfmodexL.dylib */,
+			);
+			name = lib;
+			path = ../Dependencies/fmod_osx/lib;
 			sourceTree = "<group>";
 		};
 		4F00A69918026477003B057C /* AssistFramework */ = {
@@ -397,8 +465,9 @@
 			isa = PBXGroup;
 			children = (
 				ECDA983F18114186006D9885 /* Content */,
-				1839BAF01824D7D400EEEB03 /* src */,
-				1839BAD91824D7C200EEEB03 /* include */,
+				180210CA1823F29200F8DA5E /* include */,
+				180210FA1823F2B100F8DA5E /* sqlite3 */,
+				180210E01823F2A400F8DA5E /* src */,
 				4F86449B180FB2730003D008 /* 图片资源 */,
 				4F476EFC1D9FE81200610FB2 /* TalkingScene */,
 				4F476EF51D9FE81200610FB2 /* Frameworks */,
@@ -417,9 +486,16 @@
 		4F476EF51D9FE81200610FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1839BB101824D80A00EEEB03 /* libxml2.dylib */,
+<<<<<<< HEAD
+				180211251823F81E00F8DA5E /* libxml2.dylib */,
+				180211231823F76B00F8DA5E /* libxml2.2.dylib */,
+				180211151823F66700F8DA5E /* lib */,
+				1802110B1823F65100F8DA5E /* lib */,
+				180210B41823EA0D00F8DA5E /* Dependencies */,
+=======
 				4F4D8F881823C0F000D611C8 /* MapKit.framework */,
 				4F4D8F861823C0E800D611C8 /* ImageIO.framework */,
+>>>>>>> f13084ae447a06baf360d2ccfb7d97d693a1c6c4
 				4F7C034A1816E04800B91B9A /* CoreText.framework */,
 				EC2DA0B11809440A0000EE60 /* libsqlite3.dylib */,
 				4F00A6C61802649E003B057C /* QuartzCore.framework */,
@@ -714,6 +790,7 @@
 				4F57A68718039CA000A581D8 /* TSSceneSelectViewController.xib in Resources */,
 				4F57A68918039CA000A581D8 /* TSStorySelectViewController.xib in Resources */,
 				4F57A68B18039CA000A581D8 /* TSLoginViewController.xib in Resources */,
+				180211021823F2B100F8DA5E /* VERSION in Resources */,
 				4F57A68D18039CA000A581D8 /* TSBaseViewController.xib in Resources */,
 				4F57A68F18039CA000A581D8 /* TSRoleSelectViewController.xib in Resources */,
 				4F8644A3180FB3F70003D008 /* TS_Com_NavBarItem_BKG.png in Resources */,
@@ -760,28 +837,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F476F031D9FE81200610FB2 /* main.m in Sources */,
-				1839BB031824D7D400EEEB03 /* FileHelper.cpp in Sources */,
 				4F476F071D9FE81200610FB2 /* AppDelegate.m in Sources */,
-				1839BB041824D7D400EEEB03 /* FileManager.cpp in Sources */,
 				4F476F101D9FE81200610FB2 /* ViewController.mm in Sources */,
+				180210F11823F2A400F8DA5E /* FileManager.cpp in Sources */,
 				4F00A6B818026477003B057C /* AnimationDelegate.m in Sources */,
 				4F00A6B918026477003B057C /* AnimationFrame.m in Sources */,
-				1839BB0C1824D7D400EEEB03 /* StringHelper.cpp in Sources */,
-				1839BB071824D7D400EEEB03 /* PlatformManager.cpp in Sources */,
+				180210F51823F2A400F8DA5E /* Property.cpp in Sources */,
+				180210F71823F2A400F8DA5E /* SharedPtr.cpp in Sources */,
 				4F00A6BA18026477003B057C /* FlipView.m in Sources */,
 				4F00A6BB18026477003B057C /* GenericAnimationView.m in Sources */,
+				180210F31823F2A400F8DA5E /* MemberCallback.cpp in Sources */,
 				4F00A6BC18026477003B057C /* UIView+Image.m in Sources */,
 				4F00A6BD18026477003B057C /* AccelerationAnimation.m in Sources */,
-				1839BB091824D7D400EEEB03 /* PropertyList.cpp in Sources */,
 				4F00A6BE18026477003B057C /* Evaluate.m in Sources */,
 				4F00A6BF18026477003B057C /* REBackgroundView.m in Sources */,
-				1839BB081824D7D400EEEB03 /* Property.cpp in Sources */,
+				180211001823F2B100F8DA5E /* shell.c in Sources */,
+				180211081823F45300F8DA5E /* StringHelper.cpp in Sources */,
+				180210F91823F2A400F8DA5E /* XML.cpp in Sources */,
+				1802110A1823F45300F8DA5E /* UTF8Helper.cpp in Sources */,
 				4F00A6C018026477003B057C /* RESideMenu.m in Sources */,
 				4F00A6C118026477003B057C /* RESideMenuCell.m in Sources */,
+				180210F81823F2A400F8DA5E /* SoundManager.cpp in Sources */,
+				180210F01823F2A400F8DA5E /* FileHelper.cpp in Sources */,
+				180210F61823F2A400F8DA5E /* PropertyList.cpp in Sources */,
 				4F00A6C218026477003B057C /* RESideMenuItem.m in Sources */,
-				1839BB061824D7D400EEEB03 /* MemberCallback.cpp in Sources */,
+				180210F41823F2A400F8DA5E /* PlatformManager.cpp in Sources */,
 				4F00A6C318026477003B057C /* UINavigationController+DelegateFixes.m in Sources */,
-				1839BB0A1824D7D400EEEB03 /* SharedPtr.cpp in Sources */,
+				180211091823F45300F8DA5E /* TextManager.cpp in Sources */,
 				4F00A6C418026477003B057C /* UIView+ImageSnapshot.m in Sources */,
 				4F00A6C518026477003B057C /* UIViewController+RESideMenu.m in Sources */,
 				4F57A68618039CA000A581D8 /* TSSceneSelectViewController.mm in Sources */,
@@ -791,24 +873,25 @@
 				4F57A68E18039CA000A581D8 /* TSRoleSelectViewController.m in Sources */,
 				4F86449A180F8ED50003D008 /* FlipBoardNavigationController.m in Sources */,
 				4F8644B2180FBAB20003D008 /* TSNavigationBar.m in Sources */,
-				1839BB021824D7D400EEEB03 /* DatabaseManager.cpp in Sources */,
+				180210F21823F2A400F8DA5E /* Logger.cpp in Sources */,
+				180210EF1823F2A400F8DA5E /* DatabaseManager.cpp in Sources */,
 				4F7C03481816DFE900B91B9A /* RCLabel.m in Sources */,
 				4F7C03491816DFE900B91B9A /* RTLabel.m in Sources */,
+<<<<<<< HEAD
+				180210EE1823F2A400F8DA5E /* Callback.cpp in Sources */,
+				180211011823F2B100F8DA5E /* sqlite3.c in Sources */,
+=======
 				4F4D8F7D1823BFC300D611C8 /* UIColor+Hex.m in Sources */,
 				4F4D8F7E1823BFC300D611C8 /* MKAnnotationView+WebCache.m in Sources */,
-				1839BB051824D7D400EEEB03 /* Logger.cpp in Sources */,
 				4F4D8F7F1823BFC300D611C8 /* SDImageCache.m in Sources */,
-				1839BB0D1824D7D400EEEB03 /* TextManager.cpp in Sources */,
-				1839BB011824D7D400EEEB03 /* Callback.cpp in Sources */,
 				4F4D8F801823BFC300D611C8 /* SDWebImageDecoder.m in Sources */,
 				4F4D8F811823BFC300D611C8 /* SDWebImageDownloader.m in Sources */,
-				1839BB0E1824D7D400EEEB03 /* UTF8Helper.cpp in Sources */,
 				4F4D8F821823BFC300D611C8 /* SDWebImageManager.m in Sources */,
 				4F4D8F831823BFC300D611C8 /* SDWebImagePrefetcher.m in Sources */,
 				4F4D8F841823BFC300D611C8 /* UIButton+WebCache.m in Sources */,
-				1839BB0F1824D7D400EEEB03 /* XML.cpp in Sources */,
 				4F4D8F851823BFC300D611C8 /* UIImageView+WebCache.m in Sources */,
 				4F4D8F8C1823C20F00D611C8 /* TSDialogView.m in Sources */,
+>>>>>>> f13084ae447a06baf360d2ccfb7d97d693a1c6c4
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,8 +921,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -858,8 +941,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+					"\"$(PROJECT_DIR)\"/../Dependencies/fmod/inc/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_DIR)\"/../Dependencies/fmod/lib/**";
 				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -868,8 +959,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -881,8 +972,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+					"\"$(PROJECT_DIR)\"/../Dependencies/fmod/inc/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_DIR)\"/../Dependencies/fmod/lib/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -891,25 +990,23 @@
 		4F476F171D9FE81200610FB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/include/libxml2,
-				);
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(PROJECT_DIR)\\\"/../Dependencies/fmod/lib",
+					"/Users/apple/工作/TalkingScene/Dependencies/fmod/lib",
+					"/Users/apple/工作/TalkingScene/Dependencies/fmod_osx/lib",
+				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					"\"$(SRSROOT)/Release-iphonesimulator\"",
 					"\"$(SRSROOT)/Release-iphones\"",
+					"\"$(PROJECT_DIR)\"/../../../Dependencies/fmod/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -919,25 +1016,23 @@
 		4F476F181D9FE81200610FB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TalkingScene/TalkingScene-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/include/libxml2,
-				);
 				INFOPLIST_FILE = "TalkingScene/TalkingScene-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(PROJECT_DIR)\\\"/../../../Dependencies/fmod/lib",
+					"/Users/apple/工作/TalkingScene/Dependencies/fmod/lib",
+					"/Users/apple/工作/TalkingScene/Dependencies/fmod_osx/lib",
+				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					"\"$(SRSROOT)/Release-iphonesimulator\"",
 					"\"$(SRSROOT)/Release-iphones\"",
+					"\"$(PROJECT_DIR)\"/../../../Dependencies/fmod/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;

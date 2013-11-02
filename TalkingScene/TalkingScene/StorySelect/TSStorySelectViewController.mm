@@ -66,6 +66,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.tsNavBar setTitle:@"选故事"];
     // Do any additional setup after loading the view from its nib.
 }
 
