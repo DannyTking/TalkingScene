@@ -11,7 +11,7 @@
 
 #include "FileManager.h"
 #include "StringHelper.h"
-//#include <WalaberMath.h>
+#include "WalaberMath.h"
 
 namespace Walaber
 {

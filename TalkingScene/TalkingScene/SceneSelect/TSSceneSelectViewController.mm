@@ -43,7 +43,7 @@
                 std::string sName = dit.getStringAtIndex(0);
                 std::string sBrief = dit.getStringAtIndex(1);
                 std::string sIcon = dit.getStringAtIndex(2);
-                std::int16_t sStars = dit.getIntAtIndex(3);
+                int sStars = dit.getIntAtIndex(3);
                 std::printf("ST_SceneID id is %d, name is %s, brief is %s, icon is%s,stars is %d\t\n",sceneid,sName.c_str(),sBrief.c_str(),sIcon.c_str(),sStars);
             }
         }
