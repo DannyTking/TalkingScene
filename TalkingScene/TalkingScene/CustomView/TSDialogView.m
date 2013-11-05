@@ -8,7 +8,7 @@
 
 #import "TSDialogView.h"
 #import <QuartzCore/QuartzCore.h>
-#import "UIImageView+WebCache.h"
+#import "UIImageView+TalkingScene.h"
 
 const float TSDialogDefHeight = 70;//Dialog Default Height
 const float TSDialogDefWidth = 320;//Dialog Default Width
