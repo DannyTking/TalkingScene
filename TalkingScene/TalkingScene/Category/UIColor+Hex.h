@@ -1,9 +1,9 @@
 //
 //  UIColor+Hex.h
-//  Pluto
+//  TalkingScene
 //
-//  Created by 峰 胡 on 12-6-9.
-//  Copyright (c) 2012年 Magus. All rights reserved.
+//  Created by liwenjian on 13-11-6.
+//  Copyright (c) 2013年 magus. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

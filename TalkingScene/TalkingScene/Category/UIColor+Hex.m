@@ -1,9 +1,9 @@
 //
 //  UIColor+Hex.m
-//  Pluto
+//  TalkingScene
 //
-//  Created by 峰 胡 on 12-6-9.
-//  Copyright (c) 2012年 Magus. All rights reserved.
+//  Created by liwenjian on 13-11-6.
+//  Copyright (c) 2013年 magus. All rights reserved.
 //
 
 #import "UIColor+Hex.h"
@@ -11,8 +11,8 @@
 @implementation UIColor (Hex)
 + (UIColor*)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue
 {
-    return [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 
-                           green:((float)((hexValue & 0xFF00) >> 8))/255.0 
+    return [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0
+                           green:((float)((hexValue & 0xFF00) >> 8))/255.0
                             blue:((float)(hexValue & 0xFF))/255.0 alpha:alphaValue];
 }
 
@@ -82,5 +82,4 @@
         return [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:1.0f];
     }
 }
-
 @end
