@@ -8,29 +8,39 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u2_normal.png");
 }
 
-* html .u7_normal {
+* html .u4_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u7_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u4_normal.png");
 }
 
-* html .u9_normal {
+* html .u6_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u9_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u6_normal.png");
 }
 
-* html .u14_normal {
+* html .u11_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u14_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u11_normal.png");
 }
 
-* html .u16_normal {
+* html .u13_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u9_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u6_normal.png");
 }
 
-* html .u21_normal {
+* html .u18_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u21_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u18_normal.png");
+}
+
+* html .u20_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u20_normal.png");
+}
+
+* html .u22_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u20_normal.png");
 }
 
 * html .u24_normal {
@@ -40,16 +50,6 @@
 
 * html .u26_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u24_normal.png");
-}
-
-* html .u28_normal {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u28_normal.png");
-}
-
-* html .u30_normal {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u30_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_HeroSelect_files/u26_normal.png");
 }
 

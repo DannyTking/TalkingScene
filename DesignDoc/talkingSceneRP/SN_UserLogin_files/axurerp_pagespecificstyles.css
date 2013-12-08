@@ -28,8 +28,8 @@ div {
 
 .u0_container {
     position:absolute;
-    left:37px;
-    top:-37px;
+    left:64px;
+    top:172px;
     width:450px;
     height:731px;
 }
@@ -62,8 +62,8 @@ div {
 
 .u2_container {
     position:absolute;
-    left:102px;
-    top:361px;
+    left:129px;
+    top:570px;
     width:320px;
     height:204px;
 }
@@ -96,8 +96,8 @@ div {
 
 .u4_container {
     position:absolute;
-    left:125px;
-    top:98px;
+    left:152px;
+    top:307px;
     width:50px;
     height:50px;
 }
@@ -130,8 +130,8 @@ div {
 
 .u6_container {
     position:absolute;
-    left:125px;
-    top:171px;
+    left:152px;
+    top:430px;
     width:50px;
     height:50px;
 }
@@ -160,14 +160,14 @@ div {
 
 .u8 {
     position:absolute;
-    left:185px;
-    top:110px;
+    left:212px;
+    top:319px;
     width:180px;
     height:25px;
     ;
     ;
     text-align: left;;
-    font-family:'Arial';
+    font-family:'Heiti SC';
     font-size: 13px;
     color:#000000;
     font-style:normal;
@@ -178,8 +178,8 @@ div {
 
 .u9 {
     position:absolute;
-    left:185px;
-    top:184px;
+    left:212px;
+    top:443px;
     width:180px;
     height:25px;
     ;
@@ -196,8 +196,8 @@ div {
 
 .u10 {
     position:absolute;
-    left:125px;
-    top:263px;
+    left:227px;
+    top:504px;
     width:100px;
     height:25px;
     ;
@@ -212,15 +212,49 @@ div {
     
 }
 
-.u11 {
+.u11_normal {
+    background-image: url('../SN_UserLogin_files/u4_normal.png');
+}
+
+.u11_container {
     position:absolute;
-    left:265px;
-    top:263px;
-    width:100px;
+    left:152px;
+    top:360px;
+    width:50px;
+    height:50px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:50px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:212px;
+    top:373px;
+    width:180px;
     height:25px;
     ;
     ;
-    text-align: center;;
+    text-align: left;;
     font-family:'Heiti SC';
     font-size: 13px;
     color:#000000;

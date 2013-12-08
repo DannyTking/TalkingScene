@@ -38,8 +38,13 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_SceneSelect_files/u9_normal.png");
 }
 
-* html .u29_normal {
+* html .u28_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_SceneSelect_files/u29_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_SceneSelect_files/u28_normal.png");
+}
+
+* html .u30_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_SceneSelect_files/u30_normal.png");
 }
 

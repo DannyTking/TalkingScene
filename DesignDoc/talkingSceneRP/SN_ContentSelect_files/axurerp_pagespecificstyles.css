@@ -110,9 +110,9 @@ div {
 
 .u5 {
     position:absolute;
-    left:263px;
+    left:180px;
     top:568px;
-    width:68px;
+    width:151px;
     height:38px;
     ;
     ;
@@ -474,29 +474,11 @@ div {
     word-wrap:break-word;
 }
 
-.u28 {
-    position:absolute;
-    left:180px;
-    top:568px;
-    width:83px;
-    height:38px;
-    ;
-    ;
-    text-align: center;;
-    font-family:'Heiti SC';
-    font-size: 13px;
-    color:#990033;
-    font-style:normal;
-    font-weight:normal;
-    text-decoration:none;
-    
+.u28_normal {
+    background-image: url('../SN_ContentSelect_files/u28_normal.png');
 }
 
-.u29_normal {
-    background-image: url('../SN_ContentSelect_files/u29_normal.png');
-}
-
-.u29_container {
+.u28_container {
     position:absolute;
     left:132px;
     top:118px;
@@ -504,7 +486,7 @@ div {
     height:23px;
 }
 
-#u29_img {
+#u28_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -512,7 +494,7 @@ div {
     height:29px;
 }
 
-.u30 {
+.u29 {
     position:absolute;
     left:2px;
     top:5px;
@@ -526,11 +508,11 @@ div {
     word-wrap:break-word;
 }
 
-.u31_normal {
-    background-image: url('../SN_ContentSelect_files/u31_normal.png');
+.u30_normal {
+    background-image: url('../SN_ContentSelect_files/u30_normal.png');
 }
 
-.u31_container {
+.u30_container {
     position:absolute;
     left:80px;
     top:118px;
@@ -538,7 +520,7 @@ div {
     height:23px;
 }
 
-#u31_img {
+#u30_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -546,7 +528,7 @@ div {
     height:29px;
 }
 
-.u32 {
+.u31 {
     position:absolute;
     left:2px;
     top:5px;

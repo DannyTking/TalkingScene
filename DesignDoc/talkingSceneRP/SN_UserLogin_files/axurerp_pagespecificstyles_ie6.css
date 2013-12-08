@@ -18,3 +18,8 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_UserLogin_files/u4_normal.png");
 }
 
+* html .u11_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="SN_UserLogin_files/u4_normal.png");
+}
+
