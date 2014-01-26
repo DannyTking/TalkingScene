@@ -73,7 +73,9 @@
     </control>
     <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="531" y="346" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>SN_Home%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml</href>
         <icon>HomeMobileIcon%7Clarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22522%2C346%2C570%2C394%22%20href%3D%22SN_Home.bmml%22%20alt%3D%22SN_Home%22%20id%3D%2233%22/%3E</map>
       </controlProperties>
     </control>
   </controls>

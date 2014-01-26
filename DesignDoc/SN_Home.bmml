@@ -11,10 +11,11 @@
         <text>talkingScene/%u58F0%u4F18%u5267%u573A</text>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="88" y="395" w="495" h="212" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="88" y="391" w="491" h="235" measuredW="496" measuredH="336" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <href>SN_StoryInfor%26bm%3BSN_StoryInfor.bmml%26bm%3BSN_StoryInfor.bmml%26bm%3BSN_StoryInfor.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2279%2C395%2C574%2C607%22%20href%3D%22SN_StoryInfor.bmml%22%20alt%3D%22SN_StoryInfor%22%20id%3D%225%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2279%2C391%2C570%2C626%22%20href%3D%22SN_StoryInfor.bmml%22%20alt%3D%22SN_StoryInfor%22%20id%3D%225%22/%3E</map>
+        <src>./textureRaw/xiyouji.jpg</src>
         <text>%u6545%u4E8B%u4F1A%u573A</text>
       </controlProperties>
     </control>
@@ -33,10 +34,11 @@
         <text>3</text>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="322" y="639" w="261" h="492" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="282" y="639" w="297" h="504" measuredW="326" measuredH="269" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <href>SN_HeroInfor%26bm%3BSN_HeroInfor.bmml%26bm%3BSN_HeroInfor.bmml%26bm%3BSN_HeroInfor.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22313%2C639%2C574%2C1131%22%20href%3D%22SN_HeroInfor.bmml%22%20alt%3D%22SN_HeroInfor%22%20id%3D%229%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22273%2C639%2C570%2C1143%22%20href%3D%22SN_HeroInfor.bmml%22%20alt%3D%22SN_HeroInfor%22%20id%3D%229%22/%3E</map>
+        <src>./textureRaw/sunwukong.jpg</src>
         <text>%u89D2%u8272%u4F1A%u573A</text>
       </controlProperties>
     </control>
@@ -55,14 +57,14 @@
         <text>3</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="88" y="639" w="234" h="155" measuredW="77" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="88" y="639" w="194" h="155" measuredW="77" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <href>SN_ContentInfor%26bm%3BSN_ContentInfor.bmml%26bm%3BSN_ContentInfor.bmml%26bm%3BSN_ContentInfor.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2279%2C639%2C313%2C794%22%20href%3D%22SN_ContentInfor.bmml%22%20alt%3D%22SN_ContentInfor%22%20id%3D%2213%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2279%2C639%2C273%2C794%22%20href%3D%22SN_ContentInfor.bmml%22%20alt%3D%22SN_ContentInfor%22%20id%3D%2213%22/%3E</map>
         <text>%u6BB5%u5B50%u4F1A%u9986</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="88" y="794" w="234" h="369" measuredW="77" measuredH="79" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="88" y="794" w="194" h="369" measuredW="77" measuredH="79" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u6211%u7684%u4E13%u8F91</text>
       </controlProperties>

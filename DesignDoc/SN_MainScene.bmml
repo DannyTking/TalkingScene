@@ -1,0 +1,136 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1013" measuredH="1536" mockupW="1004" mockupH="1536">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::iPhone" x="9" y="0" w="640" h="1536" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="138" y="360" w="60" h="-1" measuredW="54" measuredH="26" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u6D41%u6C13%u5251</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::StickyNote" x="724" y="646" w="289" h="86" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>%u6545%u4E8B%u8BED%u97F3%u5BF9%u8BDD%u652F%u6301%u4E0A%u4E0B%u6EDA%u52A8</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Icon" x="531" y="346" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>SN_Home%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml</href>
+        <icon>HomeMobileIcon%7Clarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22522%2C346%2C570%2C394%22%20href%3D%22SN_Home.bmml%22%20alt%3D%22SN_Home%22%20id%3D%2223%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="394" w="480" h="768" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="475" y="455" w="77" h="79" measuredW="481" measuredH="450" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/zhubajie.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="90" y="560" w="68" h="71" measuredW="326" measuredH="269" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/sunwukong.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Tooltip" x="90" y="397" w="460" h="58" measuredW="469" measuredH="0" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%u72EC%u767D%uFF1A%u8BDD%u8BF4%u4E0A%u56DE%u9AD8%u8001%u7237%u7B54%u5E94%u5C06%u5C0F%u5973%u5AC1%u7ED9%u732A%u5996%uFF0C%u5176%u5B9E%u662F%u6389%u5305%u8BA1%u3002%u4E14%u770B%u7334%u738B%u5982%u4F55%u95F9%u65B0%u6D1E%u3002</text>
+        <tooltipDirection>NW</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Tooltip" x="184" y="462" w="291" h="46" measuredW="248" measuredH="0" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%u54FC%u54C8%u54C8%uFF0C%u5475%u5475%uFF0C%u5A18%u5B50%uFF0C%u8001%u732A%u6765%u4E86%u54E6%uFF01</text>
+        <tooltipDirection>SE</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Tooltip" x="158" y="560" w="368" h="46" measuredW="235" measuredH="0" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%u55EF%uFF0C%u5B98%u4EBA%uFF0C%u83AB%u6025%u4E48%u3002%u4EBA%u5BB6%u5BB3%u7F9E%u5417%u3002</text>
+        <tooltipDirection>SW</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Icon" x="90" y="346" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>EmoticonIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Icon" x="275" y="349" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>AddCommentIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="323" y="360" w="93" h="-1" measuredW="90" measuredH="26" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u7334%u738B%u5165%u6D1E%u623F</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Icon" x="184" y="603" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>YIMIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Icon" x="275" y="603" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>Info2Icon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Tooltip" x="184" y="676" w="291" h="46" measuredW="266" measuredH="0" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%u54FC%u54C8%u54C8%uFF0C%u597D%u597D%u3002-%u5A18%u5B50%uFF0C%u4F60%u7684%u6BDB%u597D%u7C97%u4E2B%uFF01</text>
+        <tooltipDirection>SE</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="98" y="635" w="60" h="-1" measuredW="54" measuredH="26" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u5B59%u609F%u7A7A</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="483" y="534" w="60" h="-1" measuredW="54" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u732A%u516B%u6212</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="170" y="635" w="60" h="-1" measuredW="56" measuredH="22" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>%u5F55%u97F3%u5BF9%u8BDD</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Label" x="263" y="635" w="60" h="-1" measuredW="56" measuredH="22" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>%u539F%u97F3%u5BF9%u8BDD</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="483" y="755" w="60" h="-1" measuredW="54" measuredH="26" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u732A%u516B%u6212</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="475" y="676" w="77" h="79" measuredW="481" measuredH="450" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/zhubajie.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

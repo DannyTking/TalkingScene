@@ -18,70 +18,90 @@
     </control>
     <control controlID="23" controlTypeID="com.balsamiq.mockups::Icon" x="531" y="346" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>SN_Home%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml</href>
         <icon>HomeMobileIcon%7Clarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22522%2C346%2C570%2C394%22%20href%3D%22SN_Home.bmml%22%20alt%3D%22SN_Home%22%20id%3D%2223%22/%3E</map>
       </controlProperties>
     </control>
     <control controlID="26" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="394" w="480" h="768" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Icon" x="99" y="409" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Icon" x="492" y="409" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>AddCommentIcon%7Clarge</icon>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::Icon" x="501" y="563" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Icon" x="99" y="561" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>BaloonIcon%7Clarge</icon>
       </controlProperties>
     </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="137" y="435" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="99" y="418" w="99" h="96" measuredW="326" measuredH="269" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%u4E3B%u89D2%u56FE%u7247</text>
+        <src>./textureRaw/sunwukong.jpg</src>
+        <text/>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="429" y="575" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="442" y="568" w="107" h="100" measuredW="481" measuredH="450" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%u4E3B%u89D2%u56FE%u7247</text>
+        <src>./textureRaw/zhubajie.png</src>
+        <text/>
       </controlProperties>
     </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::Tooltip" x="214" y="409" w="338" h="114" measuredW="326" measuredH="0" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Tooltip" x="202" y="409" w="338" h="114" measuredW="326" measuredH="0" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <text>%u4E3B%u89D2%u540D%uFF1A%u5B59%u609F%u7A7A%0A%20%0A%u6982%u8FF0%uFF1A%u9F50%u5929%u5927%u5723%uFF0C%u5F3C%u9A6C%u6E29%uFF0C%u4E03%u5341%u4E8C%u53D8%uFF0C%u5AC9%u6076%u5982%u4EC7%u3002%0A%20%0A%u4EBA%u6C14%u6307%u6570%uFF1A1%2C123%2C242</text>
         <tooltipDirection>SW</tooltipDirection>
       </controlProperties>
     </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::Canvas" x="90" y="409" w="465" h="114" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1"/>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Canvas" x="90" y="560" w="465" h="114" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::Tooltip" x="90" y="561" w="338" h="114" measuredW="222" measuredH="0" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Canvas" x="90" y="409" w="465" h="114" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <align>left</align>
+        <href>SN_MainScene%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2281%2C409%2C546%2C523%22%20href%3D%22SN_MainScene.bmml%22%20alt%3D%22SN_MainScene%22%20id%3D%2253%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Canvas" x="90" y="560" w="465" h="114" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>SN_MainScene%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2281%2C560%2C546%2C674%22%20href%3D%22SN_MainScene.bmml%22%20alt%3D%22SN_MainScene%22%20id%3D%2254%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Tooltip" x="90" y="561" w="338" h="114" measuredW="348" measuredH="0" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
         <text>%u4E3B%u89D2%u540D%uFF1A%u732A%u516B%u6212%0A%20%0A%u6982%u8FF0%uFF1A%u5929%u84EC%u5143%u5E05%uFF0C%u597D%u8272%uFF0C%u61D2%u60F0%u3002%0A%20%0A%u4EBA%u6C14%u6307%u6570%uFF1A1%2C123%2C242</text>
         <tooltipDirection>SE</tooltipDirection>
       </controlProperties>
     </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="138" y="360" w="60" h="-1" measuredW="54" measuredH="26" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="138" y="360" w="60" h="-1" measuredW="54" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
         <text>%u897F%u6E38%u8BB0</text>
       </controlProperties>
     </control>
-    <control controlID="79" controlTypeID="com.balsamiq.mockups::Icon" x="84" y="349" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Icon" x="84" y="349" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>SN_StoryInfor%26bm%3BSN_StoryInfor.bmml%26bm%3BSN_StoryInfor.bmml%26bm%3BSN_StoryInfor.bmml</href>
         <icon>ExportIcon%7Clarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2275%2C349%2C123%2C397%22%20href%3D%22SN_StoryInfor.bmml%22%20alt%3D%22SN_StoryInfor%22%20id%3D%2279%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="80" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="349" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="349" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>SN_HeroSelect%26bm%3BSN_HeroSelect.bmml%26bm%3BSN_HeroSelect.bmml%26bm%3BSN_HeroSelect.bmml</href>
         <icon>ExportIcon%7Clarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22183%2C349%2C231%2C397%22%20href%3D%22SN_HeroSelect.bmml%22%20alt%3D%22SN_HeroSelect%22%20id%3D%2280%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="240" y="360" w="102" h="-1" measuredW="90" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="240" y="360" w="102" h="-1" measuredW="90" measuredH="26" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
         <text>%u706B%u70E7%u9AD8%u8001%u5E84</text>
       </controlProperties>
     </control>
-    <control controlID="82" controlTypeID="com.balsamiq.mockups::Image" x="90" y="697" w="465" h="124" measuredW="77" measuredH="79" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Image" x="90" y="697" w="465" h="124" measuredW="77" measuredH="79" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>SN_MainScene%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2281%2C697%2C546%2C821%22%20href%3D%22SN_MainScene.bmml%22%20alt%3D%22SN_MainScene%22%20id%3D%2282%22/%3E</map>
         <text>%u673A%u9009%u89D2%u8272</text>
       </controlProperties>
     </control>
