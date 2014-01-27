@@ -42,7 +42,7 @@
     </control>
     <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="442" y="568" w="107" h="100" measuredW="481" measuredH="450" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>./textureRaw/zhubajie.png</src>
+        <src>./assets/zhubajie.png</src>
         <text/>
       </controlProperties>
     </control>
