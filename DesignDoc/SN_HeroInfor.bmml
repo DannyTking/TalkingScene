@@ -21,7 +21,7 @@
         <icon>CloudIcon%7Cxlarge</icon>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="397" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
       </controlProperties>
@@ -169,6 +169,12 @@
         <align>left</align>
         <text>%u4E3B%u89D2%u540D%uFF1A%u732A%u516B%u6212%0A%20%0A%u6982%u8FF0%uFF1A%u5929%u84EC%u5143%u5E05%uFF0C%u597D%u8272%uFF0C%u61D2%u60F0%u3002%0A%20%0A%u4EBA%u6C14%u6307%u6570%uFF1A1%2C123%2C242</text>
         <tooltipDirection>SW</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="208" w="274" h="94" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u89D2%u8272%u9009%u62E9%u754C%u9762</text>
       </controlProperties>
     </control>
   </controls>

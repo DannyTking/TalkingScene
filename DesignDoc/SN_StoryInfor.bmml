@@ -21,7 +21,7 @@
         <icon>CloudIcon%7Cxlarge</icon>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="733" y="502" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
       </controlProperties>
@@ -177,6 +177,12 @@
       <controlProperties>
         <size>18</size>
         <text>%u6545%u4E8B%u4F1A%u573A</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::StickyNote" x="737" y="298" w="274" h="94" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u6545%u4E8B%u4F1A%u573A%u754C%u9762</text>
       </controlProperties>
     </control>
   </controls>

@@ -20,12 +20,12 @@
         <icon>Help2Icon%7Clarge</icon>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="744" y="442" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="560" w="289" h="86" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="675" w="289" h="86" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13576743</color>
         <text>UI%u8BBE%u8BA1%u98CE%u683C%uFF1A%0A%u672C%u4EA7%u54C1%u4E2D%u6240%u6709%u7684%u6309%u94AE%uFF0C%u4FE1%u606F%u6846%uFF0C%u5168%u90E8%u4EE5%u8BED%u8A00%u5BF9%u8BDD%u6846%u5206%u683C%u4E3A%u8BBE%u8BA1%u57FA%u51C6%u3002</text>
@@ -76,6 +76,12 @@
         <href>SN_Home%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml%26bm%3BSN_Home.bmml</href>
         <icon>HomeMobileIcon%7Clarge</icon>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22522%2C346%2C570%2C394%22%20href%3D%22SN_Home.bmml%22%20alt%3D%22SN_Home%22%20id%3D%2233%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::StickyNote" x="734" y="251" w="274" h="94" measuredW="109" measuredH="123" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u7528%u6237%u767B%u5F55%u754C%u9762</text>
       </controlProperties>
     </control>
   </controls>

@@ -5,7 +5,7 @@
         <model>IPhone5</model>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="725" y="412" w="274" h="94" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
       </controlProperties>
@@ -103,6 +103,12 @@
         <href>SN_MainScene%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml%26bm%3BSN_MainScene.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2281%2C697%2C546%2C821%22%20href%3D%22SN_MainScene.bmml%22%20alt%3D%22SN_MainScene%22%20id%3D%2282%22/%3E</map>
         <text>%u673A%u9009%u89D2%u8272</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::StickyNote" x="710" y="240" w="274" h="94" measuredW="109" measuredH="123" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u89D2%u8272%u786E%u5B9A%u754C%u9762</text>
       </controlProperties>
     </control>
   </controls>

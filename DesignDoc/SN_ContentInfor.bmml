@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1013" measuredH="1536" mockupW="1004" mockupH="1536">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1014" measuredH="1536" mockupW="1005" mockupH="1536">
   <controls>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::iPhone" x="9" y="0" w="640" h="1536" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -21,7 +21,7 @@
         <icon>CloudIcon%7Cxlarge</icon>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="739" y="309" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="740" y="419" w="274" h="94" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%u56FE%u7247%u90FD%u662F%u6309%u94AE%u8C03%u6574%0A%u9875%u9762%u5E03%u5C40%u6309%u7167%u9EC4%u91D1%u5206%u5272%u70B9%u8FDB%u884C%u3002</text>
       </controlProperties>
@@ -174,6 +174,12 @@
         <align>left</align>
         <text>%u6BB5%u540D%uFF1A%u7334%u738B%u5165%u6D1E%u623F%0A%20%0A%u6982%u8FF0%uFF1A%u8BDD%u8BF4%u5B59%u609F%u7A7A%u5316%u8EAB%u4E3A%u9AD8%u5BB6%u5927%u5C0F%u59D0%uFF0C%u505A%u5230%u65B0%u90CE%u95F9%u6D1E%u623F%u3002%0A%20%0A%u4EBA%u6C14%u6307%u6570%uFF1A1%2C123%2C242</text>
         <tooltipDirection>SW</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::StickyNote" x="729" y="236" w="274" h="94" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u6BB5%u5B50%u9009%u62E9%u754C%u9762</text>
       </controlProperties>
     </control>
   </controls>

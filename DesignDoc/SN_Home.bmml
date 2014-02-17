@@ -112,5 +112,11 @@
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2279%2C343%2C127%2C391%22%20href%3D%22SN_HeroInfor.bmml%22%20alt%3D%22SN_HeroInfor%22%20id%3D%2223%22/%3E</map>
       </controlProperties>
     </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::StickyNote" x="693" y="166" w="274" h="94" measuredW="109" measuredH="123" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>%u9996%u9875%u754C%u9762</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
